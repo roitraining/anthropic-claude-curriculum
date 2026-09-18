@@ -65,6 +65,19 @@ Claude Desktop Essentials
 - People cope by shortening the ask—quality drops, retries rise
 - Desktop attacks the switching cost so you can spend attention on the brief
 
+![Tab-switching tax in minutes](images/ch01-tab-tax-math.svg)
+
+<!-- ANTIGRAVITY / NANO BANANA
+Filename: images/ch01-context-switching.png (replace the SVG placeholder)
+Slide: pair with / after The Tab-Switching Tax
+Prompt advice:
+- Split 16:9 composition: left = stressed knowledge worker buried in browser tabs; right = calm same person using desktop Claude in-place over email/sheet
+- Same character both sides for continuity; warm professional palette
+- No readable confidential email text; no fake product chrome that pretends to be Claude UI
+- Classroom-readable from distance
+-->
+![The tab-switching tax](images/ch01-context-switching.svg)
+
 ---
 
 <!-- layout: 2-column -->
@@ -127,8 +140,8 @@ Claude Desktop Essentials
 - Weak use: summoning Claude with no brief ("uh, help")
 - Strong use: hotkey + short POCC while the source is still on screen
 
-<!-- TODO IMAGE: Screenshot of Claude Desktop Quick Entry overlay appearing over an email or spreadsheet window -->
-![Quick Entry over a desktop app](images/ch01-quick-entry.png)
+<!-- HUMAN SCREENSHOT: Replace images/ch01-quick-entry.svg with a real PNG of Quick Entry over mail/sheet/Notes. Sample content only. -->
+![Quick Entry over a desktop app](images/ch01-quick-entry.svg)
 
 ---
 
@@ -185,8 +198,8 @@ Claude Desktop Essentials
 - Sync is continuity of conversations and Projects—not shared local disk access
 - Missing thread? Check account, network, then refresh—before rewriting from scratch
 
-<!-- TODO IMAGE: Screenshot pair or single view showing the same conversation available in Claude.ai and Claude Desktop -->
-![Cross-device conversation sync](images/ch01-sync.png)
+<!-- HUMAN SCREENSHOT: Replace images/ch01-sync.svg with a real PNG showing the same conversation on Claude.ai and Claude Desktop. -->
+![Cross-device conversation sync](images/ch01-sync.svg)
 
 ---
 
@@ -230,8 +243,8 @@ Claude Desktop Essentials
 4. Ask a follow-up that needs file contents—no manual upload
 5. State what remains out of scope (other drives, mail body, password managers)
 
-<!-- TODO IMAGE: Screenshot of Claude Desktop Extensions settings with a local filesystem or calendar extension enabled -->
-![Desktop Extension installed](images/ch01-extension-installed.png)
+<!-- HUMAN SCREENSHOT: Replace images/ch01-extension-installed.svg with a real PNG of Extensions settings with filesystem/calendar enabled and narrow scope visible. -->
+![Desktop Extension installed](images/ch01-extension-installed.svg)
 
 ---
 

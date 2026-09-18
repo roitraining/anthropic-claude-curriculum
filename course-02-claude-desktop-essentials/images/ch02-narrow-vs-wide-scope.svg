@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+  <rect width="1200" height="675" fill="#f7f4ef"/>
+  <text x="60" y="70" font-family="Georgia, serif" font-size="34" fill="#1a1a1a">Scope the extension like provisioning</text>
+  <rect x="80" y="140" width="480" height="420" rx="20" fill="#2f5d50"/>
+  <text x="320" y="200" text-anchor="middle" fill="#fff" font-size="26" font-family="Helvetica, Arial, sans-serif">Prefer narrow</text>
+  <text x="120" y="270" fill="#d7ebe3" font-size="18" font-family="Helvetica, Arial, sans-serif">• One project folder</text>
+  <text x="120" y="315" fill="#d7ebe3" font-size="18" font-family="Helvetica, Arial, sans-serif">• Read-only when write unused</text>
+  <text x="120" y="360" fill="#d7ebe3" font-size="18" font-family="Helvetica, Arial, sans-serif">• Revisit grants monthly</text>
+  <text x="120" y="405" fill="#d7ebe3" font-size="18" font-family="Helvetica, Arial, sans-serif">• Explainable in one sentence</text>
+  <rect x="640" y="140" width="480" height="420" rx="20" fill="#8b3a2f"/>
+  <text x="880" y="200" text-anchor="middle" fill="#fff" font-size="26" font-family="Helvetica, Arial, sans-serif">Avoid wide</text>
+  <text x="680" y="270" fill="#ffd4d4" font-size="18" font-family="Helvetica, Arial, sans-serif">• Entire home directory</text>
+  <text x="680" y="315" fill="#ffd4d4" font-size="18" font-family="Helvetica, Arial, sans-serif">• Downloads catch-all</text>
+  <text x="680" y="360" fill="#ffd4d4" font-size="18" font-family="Helvetica, Arial, sans-serif">• Personal + work mixed</text>
+  <text x="680" y="405" fill="#ffd4d4" font-size="18" font-family="Helvetica, Arial, sans-serif">• Write access "just in case"</text>
+</svg>

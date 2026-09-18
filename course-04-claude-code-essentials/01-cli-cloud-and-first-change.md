@@ -37,6 +37,16 @@ Claude Code Essentials
 > [!NOTE]
 > MasterClass finale: **ask → reach → delegate → code**. Same approval culture; different artifacts.
 
+<!-- ANTIGRAVITY / NANO BANANA
+Filename: images/ch01-inherited-codebase.png (replace the SVG placeholder)
+Slide: Meet Alex (Jordan's Engineering Partner)
+Prompt advice:
+- Developer at a terminal facing a maze of files that begins resolving into a clear path
+- Hopeful technical illustration; warm light at the end of the maze
+- 16:9; no proprietary code text; no horror/cyberpunk overload
+-->
+![Inheriting an unfamiliar codebase](images/ch01-inherited-codebase.svg)
+
 ---
 
 # Why the Terminal Today (Not Desktop Code Tab)
@@ -48,6 +58,8 @@ Claude Code Essentials
 
 > [!IMPORTANT]
 > Instructors: confirm cloud model access and IAM/project/subscription setup at least one week before class.
+
+![Why this class uses the CLI](images/ch01-cli-vs-desktop-code.svg)
 
 ---
 
@@ -207,8 +219,8 @@ cd my-sample-app
 - Success check: Claude Code starts and can reach a model under the org account
 - Wrong account or missing quota shows up as auth/model errors—fix early
 
-<!-- TODO IMAGE: Screenshot of successful Claude Code CLI startup confirming org-cloud model access -->
-![Claude Code CLI connected via org cloud](images/ch01-cli-cloud-connected.png)
+<!-- HUMAN SCREENSHOT: Replace images/ch01-cli-cloud-connected.svg with a real PNG of Claude Code CLI showing successful org-cloud model access. Redact emails/account IDs. -->
+![Claude Code CLI connected via org cloud](images/ch01-cli-cloud-connected.svg)
 
 ---
 
@@ -281,8 +293,8 @@ Do not modify files yet. Flag anything that looks unsafe or unclear.
 - Accept only after spot-checking against the code
 - This is ramp-time ROI—the quiet win for teams with legacy modules
 
-<!-- TODO IMAGE: Screenshot of Claude Code proposing docstring or onboarding doc changes in plan/diff view -->
-![Claude Code documentation plan](images/ch01-docs-plan.png)
+<!-- HUMAN SCREENSHOT: Replace images/ch01-docs-plan.svg with a real PNG of Claude Code plan/diff proposing docstrings or ONBOARDING.md in the sample repo. -->
+![Claude Code documentation plan](images/ch01-docs-plan.svg)
 
 ---
 

@@ -65,6 +65,18 @@ Claude.ai Essentials
 - If you say who you are, what happened, what you can offer, and what not to promise—they draft something editable
 - Claude behaves the same way; specificity is the brief, not a "prompt trick"
 
+<!-- ANTIGRAVITY / NANO BANANA
+Filename: images/ch01-office-analogy.png (replace the SVG placeholder)
+Slide: The Office Analogy That Sticks
+Prompt advice:
+- Scene: professional briefing a capable junior colleague at a clean office desk
+- Contrast cue: one sticky note says vague "handle the vendor thing"; a second card shows a clear brief (role, goal, facts, limits)
+- Mood: warm, credible corporate training illustration — not cartoon slapstick, not dark dystopia
+- Composition: 16:9, subject-readable from the back of a classroom, minimal text in-image
+- Avoid: Claude logos, fake UI screenshots, readable real employee names
+-->
+![Briefing a capable colleague](images/ch01-office-analogy.svg)
+
 ---
 
 # Tokens in Plain English
@@ -73,6 +85,8 @@ Claude.ai Essentials
 - Longer prompts, longer replies, and uploaded files all consume tokens
 - Providers meter usage by token volume; wandering retries cost money and calendar time
 - You do not need to count tokens—you need to stop burning them on clarification loops
+
+![Tokens are chunks Claude counts](images/ch01-tokens-chunks.svg)
 
 ---
 
@@ -159,8 +173,8 @@ Claude.ai Essentials
 - **Uploads**: give Claude the source text for grounded answers
 - **Settings / privacy**: know what your seat and org allow before you paste sensitive text
 
-<!-- TODO IMAGE: Screenshot of Claude.ai home chat workspace with new chat and history visible -->
-![Claude.ai workspace overview](images/ch01-claude-ai-workspace.png)
+<!-- HUMAN SCREENSHOT: Replace images/ch01-claude-ai-workspace.svg with a real PNG of the Claude.ai home workspace (new chat + history). Fictional chat titles only. Then point Markdown at the .png. -->
+![Claude.ai workspace overview](images/ch01-claude-ai-workspace.svg)
 
 ---
 

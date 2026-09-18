@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+  <rect width="1200" height="675" fill="#e8f0ec"/>
+  <rect x="40" y="40" width="1120" height="595" rx="12" fill="#ffffff" stroke="#2f5d50" stroke-width="4" stroke-dasharray="12 8"/>
+  <rect x="40" y="40" width="1120" height="64" rx="12" fill="#2f5d50"/>
+  <text x="60" y="82" font-family="Helvetica, Arial, sans-serif" font-size="26" fill="#ffffff">ANTIGRAVITY / NANO BANANA PLACEHOLDER</text>
+  <text x="60" y="180" font-family="Georgia, serif" font-size="32" fill="#1a1a1a">Cowork sandbox as a clean room</text>
+  <text x="60" y="240" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#333333">Isometric sealed workshop/clean-room that appears for a job then disappears — temporary, isolated, purposeful.</text>
+  <text x="60" y="320" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#555555">See the HTML comment above this image in the Markdown for full prompt advice.</text>
+  <text x="60" y="620" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#666666">Generate a PNG with Nano Banana, save beside this file, update Markdown to .png</text>
+</svg>

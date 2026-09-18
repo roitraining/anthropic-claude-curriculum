@@ -33,8 +33,8 @@ Claude Code Essentials
 - Ask: would I merge this if a junior human wrote it on Friday at 4:55?
 - If not, do not merge it because Claude wrote it at 4:56
 
-<!-- TODO IMAGE: Screenshot of a PR or git diff view highlighting an AI-proposed change under review -->
-![Reviewing an AI-generated diff](images/ch02-diff-review.png)
+<!-- HUMAN SCREENSHOT: Replace images/ch02-diff-review.svg with a real PNG of a PR/git diff under review (plant a footgun in the demo branch if teaching the review drill). -->
+![Reviewing an AI-generated diff](images/ch02-diff-review.svg)
 
 ---
 
@@ -76,6 +76,8 @@ Claude Code Essentials
 4. **Operability**: logging noise, config flags, backward compatibility
 5. **Proof**: tests added/updated and actually run
 
+![Five-point AI diff checklist](images/ch02-five-point-review.svg)
+
 ---
 
 # Admin-Managed Policies
@@ -96,6 +98,16 @@ Claude Code Essentials
 - Point Claude Code at files that are already gitignored only when policy allows—and still avoid printing secrets
 - Rotate anything accidentally exposed; treat chat as exfil risk
 - Prefer stub values in sample projects
+
+<!-- ANTIGRAVITY / NANO BANANA
+Filename: images/ch02-secrets-in-prompt.png (replace the SVG placeholder)
+Slide: Secrets and Prompt Hygiene
+Prompt advice:
+- Strong caution poster: lock/API-key icon blocked before entering a chat prompt box
+- Clean infographic; no real key strings; 16:9; high contrast for classroom projection
+- Serious compliance tone, not meme comedy
+-->
+![Don't paste secrets into prompts](images/ch02-secrets-in-prompt.svg)
 
 ---
 

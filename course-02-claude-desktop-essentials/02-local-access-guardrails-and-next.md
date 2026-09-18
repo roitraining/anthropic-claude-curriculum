@@ -65,25 +65,15 @@ Claude Desktop Essentials
 4. Is it allowlisted for our tenant?
 5. Can I explain the grant in one sentence to security?
 
-<!-- TODO IMAGE: Screenshot of an extension permission or details panel before install -->
-![Extension permission review](images/ch02-permission-review.png)
+<!-- HUMAN SCREENSHOT: Replace images/ch02-permission-review.svg with a real PNG of the extension permission/details panel before install. -->
+![Extension permission review](images/ch02-permission-review.svg)
 
 ---
 
-<!-- layout: 2-column -->
+<!-- layout: title-image -->
 # Narrow versus Wide Scope
 
-### Prefer
-- One project folder
-- Read-only when write is unused
-- Calendar "today/this week" if the tool allows
-- Temporary grants you revisit monthly
-
-### Avoid
-- Entire home directory "just in case"
-- Write access for a read-only digest job
-- Mixing personal and work files in the same grant
-- Stacking five overlapping extensions
+![Narrow versus wide extension scope](images/ch02-narrow-vs-wide-scope.svg)
 
 ---
 
@@ -117,6 +107,17 @@ Claude Desktop Essentials
 
 > [!WARNING]
 > Shared catch-all folders are the most common self-inflicted Desktop risk.
+
+<!-- ANTIGRAVITY / NANO BANANA
+Filename: images/ch02-downloads-trap.png (replace the SVG placeholder)
+Slide: Failure Story: The Shared Downloads Folder
+Prompt advice:
+- Cautionary editorial illustration: overflowing Downloads folder mixing personal docs, payroll hints, and work packs pouring into an AI funnel
+- Tone: serious training warning, not horror or comedy
+- 16:9; no readable PII; no real Claude UI chrome
+- Optional small caption space: "Catch-all folders are not scopes"
+-->
+![The Downloads folder trap](images/ch02-downloads-trap.svg)
 
 ---
 

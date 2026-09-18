@@ -76,6 +76,18 @@ Claude Cowork Essentials
 > [!IMPORTANT]
 > Remote execution means Desktop and browser Cowork behave the same for class purposes. Pick the surface IT allows.
 
+![Cowork sandbox lifecycle](images/ch01-sandbox-lifecycle.svg)
+
+<!-- ANTIGRAVITY / NANO BANANA
+Filename: images/ch01-sandbox-cleanroom.png (replace the SVG placeholder)
+Slide: Sandbox Isolation (The Mental Model)
+Prompt advice:
+- Isometric sealed clean-room / temporary workshop that materializes for a job then fades away
+- Metaphor for ephemeral isolated execution — calm tech-editorial, not sci-fi warfare
+- 16:9; minimal text; no fake product UI
+-->
+![Cowork sandbox as a clean room](images/ch01-sandbox-cleanroom.svg)
+
 ---
 
 # Three Approval Modes
@@ -138,8 +150,8 @@ Claude Cowork Essentials
 - Read the plan like a work order, not like chat entertainment
 - Progress view is where you watch, pause and steer
 
-<!-- TODO IMAGE: Screenshot of Cowork session UI showing task input, plan panel and approval prompt -->
-![Cowork session interface](images/ch01-cowork-session.png)
+<!-- HUMAN SCREENSHOT: Replace images/ch01-cowork-session.svg with a real PNG of Cowork session UI (task input, plan, approval). Desktop or claude.ai — stay consistent in class. -->
+![Cowork session interface](images/ch01-cowork-session.svg)
 
 ---
 
@@ -160,8 +172,8 @@ Claude Cowork Essentials
 - Over-scoping recreates the Course 2 `Downloads/` mistake—at agent speed
 - Say the scope out loud before you hit go: "Only `SampleMessyFolder`, read then organize."
 
-<!-- TODO IMAGE: Screenshot of Cowork folder or connector authorization scoped to a single sample folder -->
-![Scoped folder and connector access](images/ch01-cowork-scope.png)
+<!-- HUMAN SCREENSHOT: Replace images/ch01-cowork-scope.svg with a real PNG showing Cowork authorized only to SampleMessyFolder (or class equivalent). -->
+![Scoped folder and connector access](images/ch01-cowork-scope.svg)
 
 ---
 
@@ -232,8 +244,8 @@ Done when: Folder tree matches the three categories and a short change log is pr
 - Good plan: criteria, examples, what happens to losers of a duplicate pair
 - Bad plan: "I will clean everything up" with no specifics—reject and ask for detail
 
-<!-- TODO IMAGE: Screenshot of Cowork plan proposing duplicate handling before execution -->
-![Cowork cleanup plan before approval](images/ch01-cleanup-plan.png)
+<!-- HUMAN SCREENSHOT: Replace images/ch01-cleanup-plan.svg with a real PNG of Cowork's cleanup/classification plan before any moves execute. -->
+![Cowork cleanup plan before approval](images/ch01-cleanup-plan.svg)
 
 ---
 

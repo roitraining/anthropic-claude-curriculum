@@ -36,6 +36,17 @@ Claude.ai Essentials
 > [!NOTE]
 > Instructors: prep a tiny sample pack before class (3 short text files or one PDF + CSV). Keep it fictional and boring on purpose.
 
+<!-- ANTIGRAVITY / NANO BANANA
+Filename: images/ch01-jordan-friday.png (replace the SVG placeholder)
+Slide: Jordan's Friday Problem
+Prompt advice:
+- Ops coordinator at a desk near end of day, clock suggesting late afternoon
+- Visual clutter: sticky notes, inbox, spreadsheet glimpse — busy professional, not slapstick chaos
+- Tone: relatable ROI classroom hero; warm lighting; 16:9
+- Avoid: readable confidential text, real logos, uncanny faces
+-->
+![Jordan's Friday status crunch](images/ch01-jordan-friday.svg)
+
 ---
 
 # Grounded Questions Beat Clever Guesses
@@ -45,8 +56,8 @@ Claude.ai Essentials
 - Good: "According to the uploaded policy, what is the refund window for hardware?"
 - Require a quote or section reference before you reuse the answer
 
-<!-- TODO IMAGE: Screenshot of Claude.ai chat with a document uploaded and a grounded question -->
-![Document upload in Claude.ai](images/ch02-file-upload.png)
+<!-- HUMAN SCREENSHOT: Replace images/ch02-file-upload.svg with a real PNG — Claude.ai chat with a fictional policy PDF uploaded and a grounded question visible. -->
+![Document upload in Claude.ai](images/ch02-file-upload.svg)
 
 ---
 
@@ -77,23 +88,19 @@ Claude.ai Essentials
 
 ---
 
-<!-- layout: 3-column -->
+<!-- layout: title-image -->
 # Traffic Light: What May Go In?
 
-### Green (usually)
-- Public web copy
-- Approved templates
-- Your own rough notes with names removed
+![What may go into Claude.ai](images/ch02-traffic-light-data.svg)
 
-### Yellow (ask first)
-- Internal process docs
-- Vendor emails with redaction
-- Metrics without customer PII
+---
 
-### Red (stop)
-- Secrets and passwords
-- Raw HR / health / payroll
-- Contracts your policy bans
+# Traffic Light: Classroom Call-outs
+
+- **Green**: still follow org policy — "usually OK" is not a blank check
+- **Yellow**: ask security or your manager before uploading
+- **Red**: stop; summarize allowed facts by hand instead of uploading
+- When unsure, treat it as yellow or red — never green by hope
 
 ---
 
@@ -179,8 +186,8 @@ Add one sentence caption that does not overclaim a trend.
 - Verify bars against the spreadsheet by eye before the pack leaves
 - Charts persuade—wrong charts persuade dangerously
 
-<!-- TODO IMAGE: Screenshot of Claude.ai chat showing a simple bar or line chart rendered in the reply -->
-![Chart rendered in Claude.ai chat](images/ch02-chart-in-chat.png)
+<!-- HUMAN SCREENSHOT: Replace images/ch02-chart-in-chat.svg with a real PNG of Claude.ai rendering a simple bar/line chart from the class sample metrics. -->
+![Chart rendered in Claude.ai chat](images/ch02-chart-in-chat.svg)
 
 ---
 
@@ -233,6 +240,17 @@ Add one sentence caption that does not overclaim a trend.
 - Favorites: invented policy clauses, wrong dates, fake "according to the document" lines, helpful refunds
 - Anything that commits money, legal language, compliance or customer promises gets a source check
 - Tone is not evidence
+
+<!-- ANTIGRAVITY / NANO BANANA
+Filename: images/ch02-plausible-wrong.png (replace the SVG placeholder)
+Slide: Plausible but Wrong: The Real Enemy
+Prompt advice:
+- Editorial illustration of a polished business document with one subtle crack / red error mark
+- Metaphor: fluency hiding a factual flaw — serious training poster, not horror
+- 16:9, limited text in-image (optional tiny "sounds right" vs "is right")
+- Avoid: fake Claude UI, real company marks, grotesque imagery
+-->
+![Plausible but wrong](images/ch02-plausible-wrong.svg)
 
 ---
 

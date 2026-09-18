@@ -33,8 +33,8 @@ Claude Cowork Essentials
 - Teach the control pattern (pause, re-approve, stop) harder than the happy path
 - Use a boring, stable public page in class—not a flaky login maze
 
-<!-- TODO IMAGE: Screenshot of Cowork browser/computer-use progress with a mid-task approval prompt -->
-![Cowork browser control in progress](images/ch02-computer-use.png)
+<!-- HUMAN SCREENSHOT: Replace images/ch02-computer-use.svg with a real PNG of Cowork browser/computer-use mid-task with an approval/pause visible. Public demo site only. -->
+![Cowork browser control in progress](images/ch02-computer-use.svg)
 
 ---
 
@@ -119,6 +119,18 @@ Claude Cowork Essentials
 
 > [!IMPORTANT]
 > If a plan suddenly wants to leave the scoped folder or contact the outside world, reject first—investigate second.
+
+![Prompt injection defense loop](images/ch02-injection-defense.svg)
+
+<!-- ANTIGRAVITY / NANO BANANA
+Filename: images/ch02-prompt-injection.png (replace the SVG placeholder)
+Slide: Prompt Injection: Why Cowork Hesitates
+Prompt advice:
+- Editorial caution poster: ordinary invoice PDF with a subtle malicious instruction ribbon/whisper
+- Educational, not horror; 16:9; minimal readable text (fake "ignore prior rules" is OK if tiny)
+- No real company brands; no fake Claude screenshots
+-->
+![Prompt injection in a document](images/ch02-prompt-injection.svg)
 
 ---
 

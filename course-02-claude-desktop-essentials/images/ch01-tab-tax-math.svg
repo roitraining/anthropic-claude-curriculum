@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+  <rect width="1200" height="675" fill="#f7f4ef"/>
+  <text x="60" y="70" font-family="Georgia, serif" font-size="34" fill="#1a1a1a">Tab-switching tax (felt in minutes)</text>
+  <rect x="80" y="150" width="300" height="200" rx="16" fill="#8a6a3c"/>
+  <text x="230" y="230" text-anchor="middle" fill="#fff" font-size="22" font-family="Helvetica, Arial, sans-serif">8 Claude asks</text>
+  <text x="230" y="275" text-anchor="middle" fill="#f3e6d0" font-size="18" font-family="Helvetica, Arial, sans-serif">per day</text>
+  <text x="420" y="250" font-size="40" fill="#1a1a1a">×</text>
+  <rect x="480" y="150" width="300" height="200" rx="16" fill="#c45c26"/>
+  <text x="630" y="230" text-anchor="middle" fill="#fff" font-size="22" font-family="Helvetica, Arial, sans-serif">~90 seconds</text>
+  <text x="630" y="275" text-anchor="middle" fill="#ffe8da" font-size="18" font-family="Helvetica, Arial, sans-serif">switch + reorient</text>
+  <text x="820" y="250" font-size="40" fill="#1a1a1a">=</text>
+  <rect x="880" y="150" width="240" height="200" rx="16" fill="#2f5d50"/>
+  <text x="1000" y="230" text-anchor="middle" fill="#fff" font-size="22" font-family="Helvetica, Arial, sans-serif">~12 min</text>
+  <text x="1000" y="275" text-anchor="middle" fill="#d7ebe3" font-size="18" font-family="Helvetica, Arial, sans-serif">per day</text>
+  <rect x="80" y="400" width="1040" height="180" rx="16" fill="#ffffff" stroke="#d9d0c3" stroke-width="2"/>
+  <text x="110" y="470" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#1a1a1a">Desktop attack: keep Claude one keystroke from the app where work already is</text>
+  <text x="110" y="520" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#555555">Quality also rises when the source email or sheet is still on screen while you brief.</text>
+</svg>

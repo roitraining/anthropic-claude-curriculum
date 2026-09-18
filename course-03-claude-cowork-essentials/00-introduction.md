@@ -33,9 +33,9 @@
 
 # Course Objectives
 
-- **Hand Cowork a real multi-step task, review its plan, and approve the steps that matter**—safely scoped to the folders and connectors you choose
+- **Hand Cowork a real multi-step task, review its plan, and approve the steps that matter**: safely scoped to the folders and connectors you choose
 - Run a folder cleanup and classification workflow end to end with plan-first habits
-- Apply Cowork guardrails and preview where Claude Code fits for engineering colleagues
+- Apply Cowork guardrails for sandbox isolation, prompt injection and connector controls
 
 ---
 
@@ -51,9 +51,9 @@
 
 # Who Should Attend
 
-- Anyone who completed Claude Desktop Essentials or has equivalent Desktop fluency
 - Admin, operations, finance, HR, or client-facing roles who manage folders, documents and recurring research
-- People ready to hand off multi-step work—not only rewrite one email at a time
+- People ready to hand off multi-step work - not only rewrite one email at a time
+- Anyone comfortable with Claude chat who wants supervised agent workflows
 
 ![Who Should Attend](images/who-should-attend.png)
 
@@ -61,8 +61,9 @@
 
 # Prerequisites
 
-- Course 2 (Claude Desktop Essentials) or equivalent comfort with Claude Desktop and basic prompting
 - Claude Desktop installed and signed in, or readiness to use Cowork in a browser at claude.ai
-- A paid Claude plan (Pro or higher)—Cowork is not available on Free; usage is heavier than chat
+- A paid Claude plan (Pro or higher) - Cowork is not available on Free; usage is heavier than chat
+- Helpful: basic prompting habits and comfort reviewing AI output before you send it
+- No coding experience required
 
 ![Prerequisites](images/prerequisites.png)

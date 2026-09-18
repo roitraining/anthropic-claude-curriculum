@@ -11,7 +11,7 @@ Claude Cowork Essentials
 
 # Chapter 3: Objectives
 
-- Reframe wins as delegated time—work you hand off entirely, not only do faster
+- Reframe wins as delegated time - work you hand off entirely, not only do faster
 - Name one multi-step task to delegate to Cowork this week
 - Leave with resources and a clear handoff to Claude Code for the right colleagues
 
@@ -28,9 +28,9 @@ Claude Cowork Essentials
 
 # Faster versus Handed Off
 
-- Course 1–2 often make you faster at work you still own step-by-step
+- Chat and Desktop often make you faster at work you still own step-by-step
 - Cowork aims at packets you supervise at plan gates instead of performing every hop
-- ROI shows up as blocks of calendar returned—if your approval habits stay sharp
+- ROI shows up as blocks of calendar returned - if your approval habits stay sharp
 - Unsupervised messes are negative ROI dressed as automation
 
 ---
@@ -56,7 +56,7 @@ Claude Cowork Essentials
 
 - Friday pack: 45 minutes manual → 15 minutes supervise-and-verify
 - That is ~30 minutes/week if the plan stays trustworthy
-- First two runs may be slower while you learn approval judgment—that is tuition
+- First two runs may be slower while you learn approval judgment - that is tuition
 - Measure after three sober runs, not after the demo high
 
 ---
@@ -78,11 +78,11 @@ Claude Cowork Essentials
 - If you cannot name stop conditions, shrink the task
 
 > [!NOTE]
-> Two quiet minutes. Share task names only—not confidential folder trees.
+> Two quiet minutes. Share task names only: not confidential folder trees.
 
 ---
 
-# Delegation Card (Take This Home)
+# Delegation Card
 
 | Field | Your notes |
 | :--- | :--- |
@@ -92,8 +92,8 @@ Claude Cowork Essentials
 | Stop conditions | |
 | Done when | |
 
-- Pin it next to your Course 2 Workflow Card
-- Promote a Workflow Card task to a Delegation Card when steps chain
+- Keep it with your other reusable workflow notes
+- Promote a single-hop workflow to a Delegation Card when steps chain
 
 ---
 
@@ -102,7 +102,7 @@ Claude Cowork Essentials
 - I reviewed a plan before execution at least once on real work
 - I rejected or edited a step when something felt fuzzy
 - My scope stayed narrow on purpose
-- I know whether my next pain is more Cowork—or actually Code for an engineer
+- I know whether my next pain is more Cowork - or actually Code for an engineer
 
 ---
 
@@ -115,22 +115,22 @@ Claude Cowork Essentials
 
 ---
 
-# How the Arc Fits Together
+# Where Cowork Fits Among Claude Surfaces
 
-- **Ask** (Claude.ai): clear briefs and human review
-- **Reach** (Desktop): Quick Entry and careful local connectors
-- **Delegate** (Cowork): plan-approve-execute for multi-step packets
-- **Code** (final): engineering plan-approve-execute on real systems
+- **Claude.ai**: clear briefs and human review for everyday drafting
+- **Claude Desktop**: Quick Entry and careful local connectors
+- **Claude Cowork**: plan-approve-execute for multi-step packets
+- **Claude Code**: engineering plan-approve-execute on real systems
 
-![MasterClass arc](images/ch03-masterclass-arc.svg)
+![Claude product surfaces](images/ch03-masterclass-arc.svg)
 
 ---
 
-# Who Should Hear About Course 4
+# When to Loop In Engineering Partners
 
-- Point developers, platform engineers and technical leads to Claude Code Essentials
+- Point developers, platform engineers and technical leads to Claude Code when the pain is software change
 - Translate today's lesson for them: same approval culture, different artifacts
-- Do not oversell Code to pure office delegates—it creates frustration
+- Do not oversell Code to pure office delegates - it creates frustration
 - Offer to co-define a problem statement with an engineering partner instead
 
 ---
@@ -138,7 +138,7 @@ Claude Cowork Essentials
 # Leave-Behind Resources
 
 - Approval-modes quick-reference (Manual / Always-allow / Auto-approve)
-- Take-home lab: Cowork Research and Report Sprint
+- Lab 2: Cowork Research and Report Sprint
 - Official Cowork documentation (sandbox, connectors, computer use)
 - Your completed Delegation Card from class
 
@@ -149,10 +149,10 @@ Claude Cowork Essentials
 
 # Day Recap
 
-- Delegating changes the shape of work—not just the prompt length
+- Delegating changes the shape of work - not just the prompt length
 - Plans are work orders; approval modes are trust dials
 - Scope and injection awareness keep agents from outrunning judgment
-- Browser control is powerful and uneven—steer it
+- Browser control is powerful and uneven - steer it
 - Code is next for builders; Cowork is enough for many office packets
 
 ---

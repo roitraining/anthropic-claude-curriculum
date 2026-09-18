@@ -1,8 +1,8 @@
-# Cloud Provider Setup Addendum (Instructor Fill-In)
+# Cloud Provider Setup Addendum (Delivery Fill-In)
 
 This class routes Claude Code through the student organization's cloud account. **Cloud-provider routing is supported in the Claude Code CLI and IDE extensions**, not the Claude Desktop Code tab.
 
-Instructors: duplicate this file per delivery and fill in only the provider you are teaching. Keep steps accurate to current vendor docs; link out rather than inventing IAM screenshots.
+Duplicate this file per delivery and fill in only the provider you are teaching. Keep steps accurate to current vendor docs; link out rather than inventing IAM screenshots.
 
 ## Provider in use for this delivery
 
@@ -33,7 +33,7 @@ Instructors: duplicate this file per delivery and fill in only the provider you 
 
 ```bash
 # TODO: exact env var names for this provider
-# Example shape only — replace with real values from current docs
+# Example shape only: replace with real values from current docs
 # export CLAUDE_CODE_USE_PROVIDER=...
 ```
 
@@ -61,6 +61,6 @@ Instructors: duplicate this file per delivery and fill in only the provider you 
 
 ## Related leave-behinds
 
-- Take-home lab: Refactoring and Test Generation
+- Lab 2: Refactoring and Test Generation
 - Official Claude Code docs
 - Official docs for the selected cloud's model access path

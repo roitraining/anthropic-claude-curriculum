@@ -27,13 +27,13 @@
 - Three reusable prompts for real office work: email, summary, meeting recap
 - A clear picture of chat, Projects, uploads and human review
 - One deliverable chain you can repeat: notes → summary → report → chart
-- A preview of Desktop, Cowork and Code so you know what comes next
+- Confidence to put Claude.ai to work on a real task this week
 
 ---
 
 # Course Objectives
 
-- **Put Claude.ai to work on real office tasks this week**—clear prompts, safer file use, and one reusable deliverable—without writing code
+- **Put Claude.ai to work on real office tasks this week**: clear prompts, safer file use, and one reusable deliverable - without writing code
 - Navigate Claude.ai and write structured prompts that produce useful first drafts
 - Turn documents and messy notes into summaries, reports, and charts while applying data guardrails
 
@@ -53,7 +53,7 @@
 
 - Information workers in admin, operations, finance, HR, or client-facing roles
 - Anyone who wants a practical, no-code introduction to Claude.ai
-- Teams starting the Claude MasterClass path before Desktop, Cowork and Code
+- Teams that want clearer prompts, safer file use and stronger human review habits
 
 ![Who Should Attend](images/who-should-attend.png)
 

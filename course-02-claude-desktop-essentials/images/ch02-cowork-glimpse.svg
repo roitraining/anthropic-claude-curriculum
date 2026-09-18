@@ -10,5 +10,5 @@
   <polygon points="790,300 840,275 840,325" fill="#8a6a3c"/>
   <rect x="860" y="200" width="280" height="200" rx="18" fill="#1f3d36"/>
   <text x="1000" y="295" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="28" fill="#ffffff">Execute</text>
-  <text x="60" y="500" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#444444">Multi-step handoff with a human checkpoint - covered deeply in Course 3.</text>
+  <text x="60" y="500" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#444444">Multi-step handoff with a human checkpoint - covered when you use Cowork.</text>
 </svg>

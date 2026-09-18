@@ -11,9 +11,9 @@ Claude Desktop Essentials
 
 # Chapter 2: Objectives
 
-- Compare local-extension risk against Course 1 web uploads and choose safer scopes
+- Compare local-extension risk against Claude.ai web uploads and choose safer scopes
 - Apply desktop and enterprise guardrails before trusting an extension in daily work
-- Preview Claude Cowork and Claude Code well enough to pick the next MasterClass session
+- Know when Desktop is enough - and when Cowork or Claude Code fits the job better
 
 ---
 
@@ -28,8 +28,8 @@ Claude Desktop Essentials
 
 # Convenience Changed the Risk Shape
 
-- Course 1 upload: you chose a file; scope was obvious in the moment
-- Desktop extension: Claude can answer from authorized local sources later—easy to forget what is in bounds
+- Web upload: you chose a file; scope was obvious in the moment
+- Desktop extension: Claude can answer from authorized local sources later - easy to forget what is in bounds
 - Speed is good; invisible scope is not
 - Today's job: make scope visible, narrow, and intentional
 
@@ -40,7 +40,7 @@ Claude Desktop Essentials
 <!-- layout: 2-column -->
 # Side-by-Side Risk Story
 
-### Upload (Course 1)
+### Claude.ai upload
 - Jordan attaches `status-notes.txt`
 - Asks three questions
 - Detaches mentally when the chat ends
@@ -85,7 +85,7 @@ Claude Desktop Essentials
 - SSO and managed updates keep Desktop inside the corporate identity story
 
 > [!NOTE]
-> Classroom may be looser than production. Send students home with questions for IT—not only a happy lab screenshot.
+> Classroom may be looser than production. Send students home with questions for IT - not only a happy lab screenshot.
 
 ---
 
@@ -93,8 +93,8 @@ Claude Desktop Essentials
 
 - Installed ≠ running
 - Claude Desktop still waits for Quick Entry, a send, or an explicit tool use
-- If something acts without a prompt, escalate—it is not the mental model for today
-- Multi-step autonomy belongs to Cowork's plan-approve-execute loop (next course)
+- If something acts without a prompt, escalate - it is not the mental model for today
+- Multi-step autonomy belongs to Cowork's plan-approve-execute loop
 
 ---
 
@@ -144,7 +144,7 @@ Prompt advice:
 - Even with a filesystem grant, do not paste secrets "for convenience"
 - Ask Claude to use the file in place when the tool supports it
 - Redact locally before any content must be pasted
-- Same Course 1 rule: assume drafts can escape via screenshot or forward
+- Same rule as web chat: assume drafts can escape via screenshot or forward
 
 ---
 
@@ -188,10 +188,10 @@ Prompt advice:
 
 ---
 
-# Desktop Send Checklist (Add to Course 1's)
+# Desktop Send Checklist
 
-- Same 60-second fact check as Course 1
-- Plus: "Was this answer influenced by an extension—and was that scope intended?"
+- Run a 60-second fact check before anything leaves your desk
+- Plus: "Was this answer influenced by an extension - and was that scope intended?"
 - Plus: "Would I be comfortable showing security the folder grant?"
 - If either answer is no, stop and reshape access
 
@@ -211,7 +211,7 @@ Prompt advice:
 - Use Cowork when the job is a chain: gather → summarize → draft → file
 - Pattern: **plan → approve → execute**
 - You read the plan before the agent acts
-- Built for business users who want progress with a checkpoint—not silent automation
+- Built for business users who want progress with a checkpoint - not silent automation
 
 ![Cowork plan-approve-execute](images/ch02-cowork-glimpse.svg)
 
@@ -246,35 +246,35 @@ Prompt advice:
 
 ---
 
-# Story Beat: Jordan's Next Course
+# Story Beat: Jordan's Next Pain
 
 - Desktop fixed Jordan's "rewrite while in Outlook" loop
 - Still painful: Friday pack across five steps and three tools
-- That pain is a Cowork trailer—not another extension pile-on
+- That pain is a Cowork trailer - not another extension pile-on
 - Engineering teammate asking for help with a cloud script? That is Code
 
 ---
 
-# Take-Home Lab Preview
+# Lab 2 Preview
 
-- Tool Hacking and Exploration: compare one local workflow to the Course 1 web upload path
+- Tool Hacking and Exploration: compare one local workflow to a Claude.ai web upload path
 - Document permissions, scope and time saved
 - Do not install unapproved tools on a work laptop
-- Bring questions for your admin—bring curiosity, not shadow IT
+- Bring questions for your admin - bring curiosity, not shadow IT
 
 ---
 
-# Supplemental Lab (Take-Home): Tool Hacking and Exploration
+# Lab 2: Tool Hacking and Exploration
 
-**Time:** 30 minutes (after class)
+**Time:** 30 minutes (in class)
 
 ---
 
 # What You Learned
 
-- Compared local-extension risk against Course 1 web uploads and chose safer scopes
+- Compared local-extension risk against Claude.ai web uploads and chose safer scopes
 - Applied desktop and enterprise guardrails before trusting an extension in daily work
-- Previewed Claude Cowork and Claude Code well enough to pick the next MasterClass session
+- Previewed when Cowork or Claude Code fits better than Desktop alone
 
 ---
 
@@ -289,7 +289,7 @@ Prompt advice:
 
 ---
 
-# Quiz 1 — Answer
+# Quiz 1: Answer
 
 **Why can a local filesystem extension be riskier than a one-time Claude.ai upload?**
 
@@ -298,7 +298,7 @@ Prompt advice:
 - Uploads make the file choice obvious each time
 - Persistent connectors need deliberate scope
 - Allowlists exist because the risk shape changed
-- Invoke still matters—capability is not action
+- Invoke still matters - capability is not action
 
 ---
 
@@ -313,7 +313,7 @@ Prompt advice:
 
 ---
 
-# Quiz 2 — Answer
+# Quiz 2: Answer
 
 **What should you do before installing a Desktop Extension?**
 
@@ -327,7 +327,7 @@ Prompt advice:
 ---
 
 <!-- layout: 2-column -->
-# Quiz 3 of 3 — Discussion
+# Quiz 3 of 3: Discussion
 
 ### Prompt
 Jordan's next pain is a five-step weekly packet: gather files, summarize, draft email, attach chart, file the folder.
@@ -340,7 +340,7 @@ Jordan's next pain is a five-step weekly packet: gather files, summarize, draft 
 ---
 
 <!-- layout: 2-column -->
-# Quiz 3 — Discussion Points
+# Quiz 3: Discussion Points
 
 **Jordan's next pain is a five-step weekly packet: gather files, summarize, draft email, attach chart, file the folder.**
 

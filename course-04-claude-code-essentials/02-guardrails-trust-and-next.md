@@ -38,11 +38,11 @@ Claude Code Essentials
 
 ---
 
-# Instructor Demo: Review Before Merge
+# Demo: Review Before Merge
 
 1. Show a drafted change that looks helpful but introduces a footgun (e.g., logging a token, weakened validation, broad `except`)
 2. Walk a 5-point review checklist live
-3. Ask Claude Code to fix only the footgun—not to "improve everything"
+3. Ask Claude Code to fix only the footgun - not to "improve everything"
 4. Re-read the new diff
 5. Run tests again
 
@@ -70,7 +70,7 @@ Claude Code Essentials
 
 # Five-Point AI Diff Checklist
 
-1. **Intent**: does the diff match the brief—and only the brief?
+1. **Intent**: does the diff match the brief - and only the brief?
 2. **Security**: secrets, injection, authZ, unsafe shell, path traversal
 3. **Correctness**: edge cases, error handling, data integrity
 4. **Operability**: logging noise, config flags, backward compatibility
@@ -82,20 +82,20 @@ Claude Code Essentials
 
 # Admin-Managed Policies
 
-- Enterprise permission policies may block commands or paths locally—even if a developer wants auto-accept
+- Enterprise permission policies may block commands or paths locally - even if a developer wants auto-accept
 - That is governance working, not the tool "being broken"
 - Know who owns policy exceptions before class week emergencies
 - Classroom may be looser than production; teach the production questions
 
 > [!NOTE]
-> Tie this to Course 3: always-allow and auto-approve were trust dials. On code, the blast radius includes production incidents.
+> Always-allow and auto-approve are trust dials. On code, the blast radius includes production incidents.
 
 ---
 
 # Secrets and Prompt Hygiene
 
 - No API keys, tokens, private keys or connection strings in prompts
-- Point Claude Code at files that are already gitignored only when policy allows—and still avoid printing secrets
+- Point Claude Code at files that are already gitignored only when policy allows - and still avoid printing secrets
 - Rotate anything accidentally exposed; treat chat as exfil risk
 - Prefer stub values in sample projects
 
@@ -122,13 +122,13 @@ Prompt advice:
 
 # Where Do Prompts and Code Go?
 
-- With org-cloud routing, inference runs via your Bedrock / Vertex AI / Foundry path—not "mystery free tier"
+- With org-cloud routing, inference runs via your Bedrock / Vertex AI / Foundry path - not "mystery free tier"
 - Exact logging, retention and training postures follow the provider + your org agreement
 - Use the Cloud Provider Setup addendum's trust section for the class cloud's current facts
 - Prefer official cloud and Anthropic docs over hallway claims
 
 > [!TIP]
-> Instructors: open the addendum trust page live. Fresh provider docs beat memorized slides.
+> Open the addendum trust page live. Fresh provider docs beat memorized slides.
 
 ---
 
@@ -136,8 +136,8 @@ Prompt advice:
 
 - Cloud logs and IAM give security a story Desktop hobby setups often lack
 - Know which identity Claude Code uses (user role vs shared lab role)
-- Shared lab roles need tighter scopes and faster cleanup after class
-- Human-in-the-loop review remains the real safety net—the permission dialog is necessary but not sufficient
+- Shared lab roles need tighter scopes and faster cleanup in class
+- Human-in-the-loop review remains the real safety net - the permission dialog is necessary but not sufficient
 
 ![Org cloud trust path](images/ch02-cloud-trust.svg)
 
@@ -159,7 +159,7 @@ Prompt advice:
 
 ---
 
-# Same Ownership Sentence as Course 1
+# Ownership Stays Human
 
 - "Claude decided" means "a human accepted a plan and a diff"
 - CI and reviewers are teammates, not optional ceremony
@@ -180,7 +180,7 @@ Prompt advice:
 # Glimpse: Multi-Agent Engineering Workflows
 
 - Subagents and parallel sessions can split research, implementation and test generation
-- Powerful for larger tasks—easy to lose the plot without strong briefs and review
+- Powerful for larger tasks - easy to lose the plot without strong briefs and review
 - This is **200-level territory**; today is the foundation those workflows sit on
 - If single-agent plan mode still feels shaky, do not jump to agent teams yet
 
@@ -189,7 +189,7 @@ Prompt advice:
 ---
 
 <!-- layout: 2-column -->
-# Foundation versus Next Course
+# Foundation versus What Comes Later
 
 ### You earned today
 - CLI + cloud routing
@@ -197,7 +197,7 @@ Prompt advice:
 - Diff-first review
 - One shipped small change
 
-### Save for 200-level
+### Save for advanced practice
 - Multi-agent orchestration
 - Complex repo estates
 - Advanced policy design
@@ -205,18 +205,18 @@ Prompt advice:
 
 ---
 
-# Take-Home Lab Preview
+# Lab 2 Preview
 
 - Refactoring and Test Generation: find a smell, refactor with Claude Code, generate a passing test suite
 - Keep plan mode for the refactor approach; refuse unrelated cleanups
-- Proof is tests passing—not a confident summary paragraph
+- Proof is tests passing - not a confident summary paragraph
 - Bring one lesson to your team about review habits, not about "AI wrote it"
 
 ---
 
-# Supplemental Lab (Take-Home): Refactoring and Test Generation
+# Lab 2: Refactoring and Test Generation
 
-**Time:** 45–60 minutes (after class)
+**Time:** 45-60 minutes (in class)
 
 ---
 
@@ -239,7 +239,7 @@ Prompt advice:
 
 ---
 
-# Quiz 1 — Answer
+# Quiz 1: Answer
 
 **What is the strongest safety net when merging Claude Code changes?**
 
@@ -263,7 +263,7 @@ Prompt advice:
 
 ---
 
-# Quiz 2 — Answer
+# Quiz 2: Answer
 
 **Why route Claude Code through the organization's cloud account in this class?**
 
@@ -277,7 +277,7 @@ Prompt advice:
 ---
 
 <!-- layout: 2-column -->
-# Quiz 3 of 3 — Discussion
+# Quiz 3 of 3: Discussion
 
 ### Prompt
 Alex wants agent teams tomorrow to "rebuild the service" after today's half-day.
@@ -290,7 +290,7 @@ Alex wants agent teams tomorrow to "rebuild the service" after today's half-day.
 ---
 
 <!-- layout: 2-column -->
-# Quiz 3 — Discussion Points
+# Quiz 3: Discussion Points
 
 **Alex wants agent teams tomorrow to "rebuild the service" after today's half-day.**
 

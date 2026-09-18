@@ -32,10 +32,10 @@ Claude Code Essentials
 - Alex inherited a small internal tool with thin docs and a noisy backlog
 - Jordan now delegates office packets with Cowork; Alex needs the same discipline on code
 - Today's job: understand a module fast, then ship one small change without blind auto-accept
-- Language-agnostic habits—the sample project carries the syntax
+- Language-agnostic habits - the sample project carries the syntax
 
 > [!NOTE]
-> MasterClass finale: **ask → reach → delegate → code**. Same approval culture; different artifacts.
+> Plan-approve-execute discipline applies here too - today we apply it to real code.
 
 <!-- ANTIGRAVITY / NANO BANANA
 Filename: images/ch01-inherited-codebase.png (replace the SVG placeholder)
@@ -52,12 +52,12 @@ Prompt advice:
 # Why the Terminal Today (Not Desktop Code Tab)
 
 - This class routes models through your org cloud: Bedrock, Vertex AI or Microsoft Foundry
-- That routing works in the **CLI and IDE extensions**, not the Claude Desktop Code tab from Course 2
+- That routing works in the **CLI and IDE extensions**, not the Claude Desktop Code tab
 - Desktop Code remains useful for direct Anthropic billing outside this cloud-routed context
 - We standardize on CLI so every student shares one playbook
 
 > [!IMPORTANT]
-> Instructors: confirm cloud model access and IAM/project/subscription setup at least one week before class.
+> Confirm cloud model access and IAM/project/subscription setup at least one week before class.
 
 ![Why this class uses the CLI](images/ch01-cli-vs-desktop-code.svg)
 
@@ -65,9 +65,9 @@ Prompt advice:
 
 # Terminal: The Five Moves You Need
 
-- `pwd` — where am I?
-- `ls` / `dir` — what is here?
-- `cd` — move into the project folder
+- `pwd`: where am I?
+- `ls` / `dir`: what is here?
+- `cd`: move into the project folder
 - Run a script or test command the README names
 - Set or export an environment variable the cloud addendum requires
 
@@ -83,9 +83,9 @@ cd my-sample-app
 # Environment Variables Without the Panic
 
 - Env vars are named settings your shell passes to programs (keys, regions, project IDs)
-- Prefer the class addendum's exact names—do not invent alternate spellings
+- Prefer the class addendum's exact names - do not invent alternate spellings
 - Never paste long-lived secrets into the Claude Code prompt "so it can see them"
-- If a var is missing, Claude Code fails loudly—that is better than silent wrong-account use
+- If a var is missing, Claude Code fails loudly - that is better than silent wrong-account use
 
 > [!WARNING]
 > Chat history is the wrong secret store. Use shell env, SSO helpers or your org's approved secret path.
@@ -97,7 +97,7 @@ cd my-sample-app
 - **Repository**: the project folder git is tracking
 - **Branch**: an isolated line of work (use one for class changes)
 - **Commit**: a snapshot you can name and undo toward
-- **Diff**: the exact lines changed—your primary review surface
+- **Diff**: the exact lines changed - your primary review surface
 
 ![Git ideas for Claude Code](images/ch01-git-basics.svg)
 
@@ -120,7 +120,7 @@ cd my-sample-app
 
 ---
 
-# Enough—Not a Git Course
+# Enough: Not a Git Course
 
 - Goal today: follow along, read a diff, not become a git historian
 - If git frightens you, pair with a neighbor for the lab mechanics
@@ -139,14 +139,14 @@ cd my-sample-app
 
 ---
 
-# From Chat and Cowork to a Coding Agent
+# What Makes Claude Code Different
 
-- Course 1: ask and refine text
-- Course 2: reach Claude beside apps
-- Course 3: delegate multi-step work with plan gates
-- Course 4: an agent that reads code, edits files and runs commands—with the same gate culture
+- Everyday chat: ask and refine text
+- Desktop: reach Claude beside apps with local connectors
+- Cowork: delegate multi-step work with plan gates
+- Claude Code: an agent that reads code, edits files and runs commands - with the same gate culture
 
-![MasterClass to Claude Code](images/ch01-masterclass-to-code.svg)
+![Claude Code in the product family](images/ch01-masterclass-to-code.svg)
 
 ---
 
@@ -156,7 +156,7 @@ cd my-sample-app
 - **Plan** the approach before risky edits
 - **Change** files with your approval
 - **Run** commands/tests you allow
-- Repeat until the done state is true—or you stop the run
+- Repeat until the done state is true - or you stop the run
 
 ![Plan approve execute for code](images/ch01-code-loop.svg)
 
@@ -166,7 +166,7 @@ cd my-sample-app
 
 - **Manual approval**: confirm sensitive steps (commands, broad edits)
 - **Plan mode**: investigate and propose while staying read-oriented before changes apply
-- **Auto-accept edits**: faster on trusted, low-blast work—dangerous on auth, payments, IAM, migrations
+- **Auto-accept edits**: faster on trusted, low-blast work - dangerous on auth, payments, IAM, migrations
 
 > [!IMPORTANT]
 > Lab rule: start in plan mode. Earn speed after you have read a clean diff.
@@ -214,22 +214,22 @@ cd my-sample-app
 
 # Your Cloud, Your Controls
 
-- Class path: Amazon Bedrock, Google Vertex AI or Microsoft Foundry—per org choice
+- Class path: Amazon Bedrock, Google Vertex AI or Microsoft Foundry - per org choice
 - Follow the **Cloud Provider Setup addendum** for exact CLI flags, env vars and IAM roles
 - Success check: Claude Code starts and can reach a model under the org account
-- Wrong account or missing quota shows up as auth/model errors—fix early
+- Wrong account or missing quota shows up as auth/model errors - fix early
 
 <!-- HUMAN SCREENSHOT: Replace images/ch01-cli-cloud-connected.svg with a real PNG of Claude Code CLI showing successful org-cloud model access. Redact emails/account IDs. -->
 ![Claude Code CLI connected via org cloud](images/ch01-cli-cloud-connected.svg)
 
 ---
 
-# Instructor Demo: Verify the Room
+# Demo: Verify the Room
 
 1. Open the addendum for today's cloud
 2. Students apply env/login steps
 3. Run the addendum's "hello" prompt or `/status`-style check
-4. Parking-lot auth failures immediately—do not debug twenty laptops mid-demo later
+4. Parking-lot auth failures immediately - do not debug twenty laptops mid-demo later
 5. Confirm everyone is on the class model pin if the addendum specifies one
 
 ---
@@ -239,7 +239,7 @@ cd my-sample-app
 - Teams standardize on a specific model version for reproducibility and change control
 - Unpinned "default" can shift under you between Monday and Thursday
 - Pin in config per addendum guidance; document the pin in the team README
-- Changing pins is a deliberate upgrade—not a surprise mid-incident
+- Changing pins is a deliberate upgrade - not a surprise mid-incident
 
 > [!TIP]
 > Write the pinned model ID on the whiteboard for the day. Ambiguity burns lab minutes.
@@ -275,7 +275,7 @@ cd my-sample-app
 
 - Hand Claude Code a sample repo nobody owns personally
 - Ask: "Explain what `billing/calculator.py` (or equivalent) does for a new teammate."
-- Require: public behavior, main functions, risks/ TODOs—not a line-by-line novel
+- Require: public behavior, main functions, risks/ TODOs - not a line-by-line novel
 - Show how a good brief beats "what is this codebase?"
 
 ```text
@@ -291,7 +291,7 @@ Do not modify files yet. Flag anything that looks unsafe or unclear.
 - Ask for docstrings on one undocumented function plus a short `ONBOARDING.md` section
 - Review the draft like a PR: wrong claims are worse than missing docs
 - Accept only after spot-checking against the code
-- This is ramp-time ROI—the quiet win for teams with legacy modules
+- This is ramp-time ROI - the quiet win for teams with legacy modules
 
 <!-- HUMAN SCREENSHOT: Replace images/ch01-docs-plan.svg with a real PNG of Claude Code plan/diff proposing docstrings or ONBOARDING.md in the sample repo. -->
 ![Claude Code documentation plan](images/ch01-docs-plan.svg)
@@ -313,14 +313,14 @@ Show the plan and wait for approval before editing.
 
 ---
 
-# Instructor Build Script (Happy Path + One Rejection)
+# Demo Build Script (Happy Path + One Rejection)
 
 1. Create/checkout a class branch
 2. Run explore prompt; leave plan mode
 3. Run feature prompt; display the plan
 4. Reject one over-broad step on purpose (e.g., "refactor unrelated modules")
 5. Approve the narrow path; run tests
-6. `git diff` on the projector—teach the diff as the truth surface
+6. `git diff` on the projector - teach the diff as the truth surface
 
 > [!IMPORTANT]
 > Students should see you refuse scope creep. That refusal is the lesson.
@@ -332,7 +332,7 @@ Show the plan and wait for approval before editing.
 - Sample project provided; class branch; plan mode first
 - Propose → review → approve → apply → run the check command
 - Checkpoint: one small working change you can demonstrate
-- If cloud quotas throttle you, preserve the reviewed plan notes—the habit still counts
+- If cloud quotas throttle you, preserve the reviewed plan notes - the habit still counts
 
 ---
 
@@ -361,7 +361,7 @@ Show the plan and wait for approval before editing.
 
 ---
 
-# Quiz 1 — Answer
+# Quiz 1: Answer
 
 **Why does this class emphasize the Claude Code CLI (or IDE extension) over the Desktop Code tab?**
 
@@ -385,7 +385,7 @@ Show the plan and wait for approval before editing.
 
 ---
 
-# Quiz 2 — Answer
+# Quiz 2: Answer
 
 **You are new to a repo and about to add a feature. What is the best opening move?**
 
@@ -399,7 +399,7 @@ Show the plan and wait for approval before editing.
 ---
 
 <!-- layout: 2-column -->
-# Quiz 3 of 3 — Discussion
+# Quiz 3 of 3: Discussion
 
 ### Prompt
 Claude Code's plan for a "small flag" also rewrites auth middleware and upgrades three dependencies.
@@ -412,7 +412,7 @@ Claude Code's plan for a "small flag" also rewrites auth middleware and upgrades
 ---
 
 <!-- layout: 2-column -->
-# Quiz 3 — Discussion Points
+# Quiz 3: Discussion Points
 
 **Claude Code's plan for a "small flag" also rewrites auth middleware and upgrades three dependencies.**
 

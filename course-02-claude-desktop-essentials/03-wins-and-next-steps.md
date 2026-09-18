@@ -13,7 +13,7 @@ Claude Desktop Essentials
 
 - Reframe today's skills as time saved from eliminated context-switching
 - Name the next friction point to solve with Quick Entry or an extension
-- Leave with resources and a clear MasterClass path into Cowork and Code
+- Leave with resources and a clear sense of when Desktop, Cowork or Code fits next
 
 ---
 
@@ -57,7 +57,7 @@ Claude Desktop Essentials
 - 8 switches/day × ~90 seconds ≈ 12 minutes/day
 - Even cutting that in half returns about 30 minutes/week
 - Add quality: better briefs because the source was still on screen
-- Students should plug in their own switch count—do not oversell
+- Students should plug in their own switch count - do not oversell
 
 ---
 
@@ -74,11 +74,11 @@ Claude Desktop Essentials
 
 - Write one daily friction point for the next seven days
 - Choose: Quick Entry only, extension only, or both
-- Write the minimum permission you need—and what stays out
+- Write the minimum permission you need - and what stays out
 - If it is a five-step packet, park it for Cowork instead of piling extensions
 
 > [!NOTE]
-> Two quiet minutes, then volunteers share friction points—not file paths.
+> Two quiet minutes, then volunteers share friction points - not file paths.
 
 ---
 
@@ -115,29 +115,30 @@ Claude Desktop Essentials
 
 ---
 
-# How Desktop Builds on Course 1
+# What Desktop Adds to Daily Work
 
-- Course 1: POCC, Projects, uploads, human review
-- Course 2: same judgment, lower friction, permission literacy for local connectors
+- Clear briefs, Projects and human review still matter on the desktop
+- Desktop lowers friction and adds permission literacy for local connectors
 - Sync means your Projects are not stranded in the browser
 - The send checklist gains one question: was this scope intended?
 
 ---
 
-# MasterClass Path From Here
+# When Another Claude Surface Fits Better
 
-- **Next: Claude Cowork Essentials** — multi-step handoff; review the plan before execution
-- **Then: Claude Code Essentials** — plan-approve-execute for engineering teams on real cloud accounts
-- Book the session that matches the next pain—not the flashiest label
+- **Claude Cowork**: multi-step handoff when you want a plan to approve before execution
+- **Claude Code**: engineering teams changing repos and cloud configuration
+- Stay on Desktop when the win is reachability and scoped local access
+- Choose the tool that matches the pain - not the flashiest label
 
-![MasterClass path from Desktop](images/ch03-masterclass-from-desktop.svg)
+![Claude product options from Desktop](images/ch03-masterclass-from-desktop.svg)
 
 ---
 
 # Leave-Behind Resources
 
 - Extensions quick-reference: permissions, scope, install checklist
-- Take-home lab: Tool Hacking and Exploration
+- Lab 2: Tool Hacking and Exploration
 - Official Claude Desktop documentation
 - Your completed Workflow Card from today's sprint
 

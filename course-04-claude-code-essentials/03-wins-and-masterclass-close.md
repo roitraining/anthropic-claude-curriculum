@@ -5,15 +5,15 @@
 
 Claude Code Essentials
 
-# Chapter 3: Wins, MasterClass Close and Resources
+# Chapter 3: Wins, Next Steps and Resources
 
 ---
 
 # Chapter 3: Objectives
 
-- Reframe wins as faster ramp and safer small changes—not replaced engineering judgment
+- Reframe wins as faster ramp and safer small changes - not replaced engineering judgment
 - Name one real backlog task to try with Claude Code this week
-- Close the four-course MasterClass arc and leave with the right resources
+- Leave with resources and a clear habit for plan-approve-execute on real code
 
 ---
 
@@ -22,7 +22,7 @@ Claude Code Essentials
 
 - **Business Wins and ROI**
 - Your Backlog Task
-- MasterClass Close and Resources
+- Resources and Wrap-up
 
 ---
 
@@ -55,7 +55,7 @@ Claude Code Essentials
 - One onboarding doc session saves the next human an hour
 - Two small ticketed changes/week × 20 minutes saved = real calendar return
 - One prevented secret leak or auth bug is worth more than a month of autocomplete
-- Measure after three sober tasks—not after the classroom dopamine
+- Measure after three sober tasks - not after the classroom dopamine
 
 ---
 
@@ -64,7 +64,7 @@ Claude Code Essentials
 
 - Business Wins and ROI
 - **Your Backlog Task**
-- MasterClass Close and Resources
+- Resources and Wrap-up
 
 ---
 
@@ -76,7 +76,7 @@ Claude Code Essentials
 - If you cannot name a test or check, shrink the task
 
 > [!NOTE]
-> Two quiet minutes. Share ticket titles—not proprietary code.
+> Two quiet minutes. Share ticket titles - not proprietary code.
 
 ---
 
@@ -90,8 +90,8 @@ Claude Code Essentials
 | Off-limits paths | |
 | Approval posture | |
 
-- Sibling to Course 2 Workflow Cards and Course 3 Delegation Cards
-- Promote office automation ideas to engineering partners with this card—not vibes
+- Treat this like any reusable runbook card for your team
+- Promote automation ideas with this card - not vibes
 
 ---
 
@@ -109,35 +109,35 @@ Claude Code Essentials
 
 - Business Wins and ROI
 - Your Backlog Task
-- **MasterClass Close and Resources**
+- **Resources and Wrap-up**
 
 ---
 
-# The MasterClass Arc—Closed
+# Where Claude Code Fits
 
-- **Ask** (Claude.ai): briefs, Projects, human review
-- **Reach** (Desktop): Quick Entry, scoped extensions
-- **Delegate** (Cowork): multi-step plans with approval gates
-- **Code** (today): the same gates on repositories and commands in your cloud
+- **Claude.ai**: briefs, Projects, human review for everyday drafting
+- **Claude Desktop**: Quick Entry and scoped local extensions
+- **Claude Cowork**: multi-step office packets with approval gates
+- **Claude Code**: the same gates on repositories and commands in your cloud
 
-![MasterClass complete](images/ch03-masterclass-complete.svg)
+![Claude product family](images/ch03-masterclass-complete.svg)
 
 ---
 
-# Who Uses Which Session After This?
+# Pick the Right Surface for the Job
 
 - Office multi-step packets → Cowork
 - Local one-hop desktop friction → Desktop
 - Everyday drafting and grounded Q and A → Claude.ai
 - Repo and cloud engineering changes → Claude Code
-- Multi-agent coding systems → 200-level follow-on
+- Multi-agent coding systems → advanced workflows after today's foundation feels solid
 
 ---
 
 # Leave-Behind Resources
 
 - Cloud Provider Setup addendum (class cloud: Bedrock, Vertex AI or Foundry)
-- Take-home lab: Refactoring and Test Generation
+- Lab 2: Refactoring and Test Generation
 - Official Claude Code documentation
 - Your Engineering Change Card from reflection
 
@@ -152,7 +152,7 @@ Claude Code Essentials
 - Plan mode makes coding agents reviewable
 - Diffs and tests are the truth; dialogs are helpers
 - Small shipped changes beat grandiose unsupervised rewrites
-- The MasterClass ends where accountable agentic coding begins
+- Accountable agentic coding starts with a plan you would initial
 
 ---
 

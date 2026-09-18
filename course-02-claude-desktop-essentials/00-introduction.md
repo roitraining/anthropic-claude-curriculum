@@ -24,16 +24,16 @@
 
 # What You Walk Out With Today
 
-- Claude Desktop installed, signed in, and synced with your Claude.ai work
+- Claude Desktop installed, signed in, and ready for daily work
 - A Quick Entry shortcut you can fire from real apps
-- One scoped Desktop Extension—or a documented reason you did not need one
+- One scoped Desktop Extension - or a documented reason you did not need one
 - A Workflow Card for a daily friction point you will reuse this week
 
 ---
 
 # Course Objectives
 
-- **Bring Claude into everyday desktop work**—Quick Entry, a safe local extension, and one keystroke-triggered workflow you will reuse this week
+- **Bring Claude into everyday desktop work**: Quick Entry, a safe local extension, and one keystroke-triggered workflow you will reuse this week
 - Reach Claude from any app and keep chats and Projects in sync with Claude.ai
 - Connect local files or calendar data through Desktop Extensions while applying the right guardrails
 
@@ -51,9 +51,9 @@
 
 # Who Should Attend
 
-- Anyone who completed Claude.ai Essentials or has equivalent hands-on familiarity with Claude.ai
 - Information workers across admin, operations, finance, HR, or client-facing roles
-- People who work across email, spreadsheets, and internal tools—and want Claude beside those apps
+- People who work across email, spreadsheets and internal tools - and want Claude beside those apps
+- Anyone comfortable with basic Claude.ai chat who wants a desktop workflow
 
 ![Who Should Attend](images/who-should-attend.png)
 
@@ -61,8 +61,9 @@
 
 # Prerequisites
 
-- Course 1 (Claude.ai Essentials) or equivalent comfort with prompting and the Claude.ai interface
+- Comfort with a modern laptop and installing desktop software (or IT pre-install)
 - A laptop running macOS or Windows 10 or later with rights to install Claude Desktop and a Desktop Extension
 - An individually licensed Claude account (Pro recommended for live-classroom reliability)
+- Helpful: basic prompting familiarity in Claude.ai
 
 ![Prerequisites](images/prerequisites.png)

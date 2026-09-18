@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
   <rect width="1200" height="675" fill="#f7f4ef"/>
-  <text x="60" y="70" font-family="Georgia, serif" font-size="34" fill="#1a1a1a">MasterClass path from Desktop</text>
+  <text x="60" y="70" font-family="Georgia, serif" font-size="34" fill="#1a1a1a">Claude product options</text>
   <rect x="80" y="180" width="240" height="260" rx="18" fill="#8a6a3c"/>
-  <text x="200" y="290" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#ffffff">1. Claude.ai</text>
+  <text x="200" y="290" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#ffffff">Claude.ai</text>
   <text x="200" y="330" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#f3e6d0">Done</text>
   <rect x="350" y="180" width="240" height="260" rx="18" fill="#c45c26"/>
-  <text x="470" y="280" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#ffffff">2. Desktop</text>
+  <text x="470" y="280" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#ffffff">Desktop</text>
   <text x="470" y="320" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#ffe8da">You are here</text>
   <rect x="620" y="180" width="240" height="260" rx="18" fill="#2f5d50"/>
-  <text x="740" y="280" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#ffffff">3. Cowork</text>
+  <text x="740" y="280" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#ffffff">Cowork</text>
   <text x="740" y="320" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#d7ebe3">Next</text>
   <rect x="890" y="180" width="240" height="260" rx="18" fill="#1f3d36"/>
-  <text x="1010" y="280" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#ffffff">4. Code</text>
+  <text x="1010" y="280" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#ffffff">Code</text>
   <text x="1010" y="320" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#d7ebe3">Engineering</text>
 </svg>

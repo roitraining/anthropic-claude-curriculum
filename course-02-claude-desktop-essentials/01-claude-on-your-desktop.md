@@ -11,7 +11,7 @@ Claude Desktop Essentials
 
 # Chapter 1: Objectives
 
-- Explain what changes—and what stays the same—when moving from Claude.ai to Claude Desktop
+- Explain what changes - and what stays the same - when moving from Claude.ai to Claude Desktop
 - Use Quick Entry to reach Claude from inside another app without losing focus
 - Install and configure a Desktop Extension that connects Claude to local files or calendar data
 
@@ -26,24 +26,24 @@ Claude Desktop Essentials
 
 ---
 
-# Jordan Is Back—And Stuck in Windows
+# Jordan Is Back: And Stuck in Windows
 
-- Same Jordan from Course 1: ops coordinator, vendor emails, Friday status pack
-- New pain: the work lives in Outlook, Excel and a local folder—not in a browser tab
+- Jordan is an ops coordinator: vendor emails, Friday status packs, too many windows
+- New pain: the work lives in Outlook, Excel and a local folder - not in a browser tab
 - Every Claude.ai hop costs focus: find the chat, paste context, wait, paste back
 - Today we remove that tax with Quick Entry, sync and one carefully scoped extension
 
 > [!NOTE]
-> Course 1 skills still apply: POCC briefs, Projects, human review. Desktop changes where you launch them.
+> Clear briefs, Projects and human review still matter. Desktop changes where you launch them.
 
 ---
 
 # Creative Warm-Up (2 Minutes, Max)
 
-- Instructors: ask Claude Desktop something playful (haiku about inbox zero, rename a fake project, silly subject lines)
+- Open with a short playful request in Claude Desktop (haiku about inbox zero, rename a fake project, silly subject lines)
 - Point: the same assistant feels more reachable when it is already on the desktop
 - Land the beat: availability drives adoption more than feature lists
-- Then switch to Jordan's real friction—do not linger in party-trick mode
+- Then switch to Jordan's real friction - do not linger in party-trick mode
 
 ---
 
@@ -52,7 +52,7 @@ Claude Desktop Essentials
 - Model quality and account are continuous with Claude.ai
 - What changes: Quick Entry, Desktop Extensions, living beside local apps
 - What stays: clear briefs, Projects (synced), verify-before-send
-- Cowork and Code remain later courses—preview only today
+- Claude Cowork and Claude Code exist for heavier multi-step or engineering work - today stays on Desktop
 
 ![Claude product surfaces](images/ch01-desktop-in-family.svg)
 
@@ -62,7 +62,7 @@ Claude Desktop Essentials
 
 - Assume 8 Claude asks per day × 90 seconds of switching and re-orienting = 12 minutes
 - That is an hour a week before you count bad briefs caused by lost context
-- People cope by shortening the ask—quality drops, retries rise
+- People cope by shortening the ask - quality drops, retries rise
 - Desktop attacks the switching cost so you can spend attention on the brief
 
 ![Tab-switching tax in minutes](images/ch01-tab-tax-math.svg)
@@ -99,10 +99,10 @@ Prompt advice:
 
 # Install Check Before We Go Deep
 
-- Claude Desktop installed, signed in, same account as Course 1
-- A Course 1 chat or Project is visible via sync
+- Claude Desktop installed and signed in on the work account
+- A prior Claude.ai chat or Project is visible via sync (if you already use the web app)
 - Students can open Settings and see Extensions
-- Blockers go to the parking lot now—not during the lab
+- Blockers go to the parking lot now - not during the lab
 
 > [!IMPORTANT]
 > No admin rights and no pre-approved extension means no lab. Confirm IT path before class.
@@ -145,16 +145,16 @@ Prompt advice:
 
 ---
 
-# Instructor Demo: Outlook-Style Rewrite
+# Demo: Outlook-Style Rewrite
 
 1. Open a sample vendor-delay email (fictional)
 2. Hit Quick Entry without leaving the mail client
-3. Paste a tight POCC (reuse Course 1 vendor email shell)
+3. Paste a tight POCC brief (role, goal, facts, constraints)
 4. Drop the draft back into the reply window
 5. Ask the room: what did we not have to retype?
 
 > [!TIP]
-> If live Outlook is painful in the classroom, use Notepad or Word with the same choreography—the lesson is focus, not the mail brand.
+> If live Outlook is painful in the classroom, use Notepad or Word with the same choreography - the lesson is focus, not the mail brand.
 
 ---
 
@@ -169,7 +169,7 @@ Prompt advice:
 
 # Session Hygiene on the Desktop
 
-- Separate sessions for separate jobs—same rule as Course 1 chats
+- Separate sessions for separate jobs - do not mash unrelated work into one thread
 - Name threads by outcome: `Acme delay reply`, `Fri pack`
 - Quick Entry should land you somewhere intentional, not in last week's chaos
 - Close finished work so the default session stays clean
@@ -195,8 +195,8 @@ Prompt advice:
 
 - Morning: sketch a brief in Claude.ai on a laptop in a meeting
 - Afternoon: continue the same thread in Desktop beside Excel
-- Sync is continuity of conversations and Projects—not shared local disk access
-- Missing thread? Check account, network, then refresh—before rewriting from scratch
+- Sync is continuity of conversations and Projects - not shared local disk access
+- Missing thread? Check account, network, then refresh - before rewriting from scratch
 
 <!-- HUMAN SCREENSHOT: Replace images/ch01-sync.svg with a real PNG showing the same conversation on Claude.ai and Claude Desktop. -->
 ![Cross-device conversation sync](images/ch01-sync.svg)
@@ -215,8 +215,8 @@ Prompt advice:
 # Extensions = Permissioned Local Superpowers
 
 - A Desktop Extension connects Claude to local capability: files, calendar, other approved tools
-- Unlike Course 1 uploads, access can persist for later asks inside the allowed scope
-- Unlike Cowork, you still drive each ask—the extension does not run a multi-step agent plan
+- Unlike one-off web uploads, access can persist for later asks inside the allowed scope
+- Unlike Cowork, you still drive each ask - the extension does not run a multi-step agent plan
 - Install is an access decision; treat it like provisioning, not like enabling dark mode
 
 ![Desktop Extensions concept](images/ch01-extensions-concept.svg)
@@ -238,9 +238,9 @@ Prompt advice:
 # Live Install Script (Filesystem or Calendar)
 
 1. Choose the classroom-approved extension
-2. Scope narrowly: one `ClassDemo/WeeklyStatus` folder—or calendar read-only
+2. Scope narrowly: one `ClassDemo/WeeklyStatus` folder - or calendar read-only
 3. Ask: "List the file names in my WeeklyStatus folder" or "What is my next meeting today?"
-4. Ask a follow-up that needs file contents—no manual upload
+4. Ask a follow-up that needs file contents - no manual upload
 5. State what remains out of scope (other drives, mail body, password managers)
 
 <!-- HUMAN SCREENSHOT: Replace images/ch01-extension-installed.svg with a real PNG of Extensions settings with filesystem/calendar enabled and narrow scope visible. -->
@@ -277,7 +277,7 @@ Prompt advice:
 # Lab Briefing: Workflow Integration Sprint
 
 - Pick one real friction point (or a Jordan proxy if data is sensitive)
-- Install only the approved extension you need—or none
+- Install only the approved extension you need - or none
 - Configure Quick Entry; document the Workflow Card
 - Checkpoint: demo your loop to a neighbor in 60 seconds
 
@@ -291,7 +291,7 @@ Prompt advice:
 
 # What You Learned
 
-- Explained what changes—and what stays the same—when moving from Claude.ai to Claude Desktop
+- Explained what changes - and what stays the same - when moving from Claude.ai to Claude Desktop
 - Used Quick Entry to reach Claude from inside another app without losing focus
 - Installed and configured a Desktop Extension that connects Claude to local files or calendar data
 
@@ -301,20 +301,20 @@ Prompt advice:
 
 **What is the main productivity win Claude Desktop adds on top of Claude.ai?**
 
-- A. It replaces Cowork and Code so later courses are optional
+- A. It replaces every other Claude product so you never need chat or the web app
 - B. It runs fully offline with no account
 - C. It cuts tab-switching by putting Claude one keystroke from the app where you already work
 - D. It auto-installs every extension without approval
 
 ---
 
-# Quiz 1 — Answer
+# Quiz 1: Answer
 
 **What is the main productivity win Claude Desktop adds on top of Claude.ai?**
 
 **Correct: C.** It cuts tab-switching by putting Claude one keystroke from the app where you already work
 
-- Capability is continuous with Course 1
+- The same Claude intelligence; the surface and connectors change
 - Surface and timing change adoption
 - Extensions are optional amplifiers
 - Sync keeps browser work available on the desktop
@@ -332,21 +332,21 @@ Prompt advice:
 
 ---
 
-# Quiz 2 — Answer
+# Quiz 2: Answer
 
 **How does a Desktop Extension differ from a Claude.ai file upload?**
 
 **Correct: B.** An extension can connect Claude to authorized local sources without a fresh manual upload each time
 
 - Uploads make the file choice explicit each time
-- Extensions change the access model—so review matters more
+- Extensions change the access model - so review matters more
 - Scope and allowlists are the controls
 - You still invoke Claude; capability is not silent action
 
 ---
 
 <!-- layout: 2-column -->
-# Quiz 3 of 3 — Discussion
+# Quiz 3 of 3: Discussion
 
 ### Prompt
 A teammate enables Quick Entry and a whole-home-folder filesystem extension "to be ready for anything."
@@ -359,7 +359,7 @@ A teammate enables Quick Entry and a whole-home-folder filesystem extension "to 
 ---
 
 <!-- layout: 2-column -->
-# Quiz 3 — Discussion Points
+# Quiz 3: Discussion Points
 
 **A teammate enables Quick Entry and a whole-home-folder filesystem extension "to be ready for anything."**
 

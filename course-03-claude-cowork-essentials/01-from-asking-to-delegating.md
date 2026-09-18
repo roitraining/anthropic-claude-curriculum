@@ -28,13 +28,13 @@ Claude Cowork Essentials
 
 # Jordan's New Bottleneck
 
-- Course 1: Jordan got great drafts from clear prompts
-- Course 2: Jordan reached Claude without tab-switching
-- Still stuck: Friday pack is five steps across a messy folder—gather, dedupe, classify, summarize, file
+- Jordan already gets useful drafts from clear prompts
+- Jordan can reach Claude without constant tab-switching
+- Still stuck: Friday pack is five steps across a messy folder - gather, dedupe, classify, summarize, file
 - One clever prompt will not finish that job; a supervised agent might
 
 > [!NOTE]
-> MasterClass throughline: **ask** → **reach** → **delegate** → (Course 4) **code**. Today is delegate.
+> Today is about **delegating** multi-step work: plan first, approve the gates that matter, then execute.
 
 ---
 
@@ -42,7 +42,7 @@ Claude Cowork Essentials
 
 - **Ask** (Chat): one turn or a short thread; you drive every step
 - **Delegate** (Cowork): you state an outcome; Cowork proposes a plan, then acts with approval gates
-- You are not "prompting harder"—you are changing the shape of the work
+- You are not "prompting harder" - you are changing the shape of the work
 - If you still want to approve wording line by line, stay in Chat
 
 ![Ask versus delegate](images/ch01-ask-vs-delegate.svg)
@@ -69,7 +69,7 @@ Claude Cowork Essentials
 # Sandbox Isolation (The Mental Model)
 
 - Each Cowork session gets a fresh remote sandbox on Anthropic's side
-- The sandbox is destroyed when the session ends—treat it as temporary work space
+- The sandbox is destroyed when the session ends - treat it as temporary work space
 - No reach into your network beyond what you explicitly authorize (folders, connectors)
 - Stable internet is required; this is not a local VM or Hyper-V lab
 
@@ -83,7 +83,7 @@ Filename: images/ch01-sandbox-cleanroom.png (replace the SVG placeholder)
 Slide: Sandbox Isolation (The Mental Model)
 Prompt advice:
 - Isometric sealed clean-room / temporary workshop that materializes for a job then fades away
-- Metaphor for ephemeral isolated execution — calm tech-editorial, not sci-fi warfare
+- Metaphor for ephemeral isolated execution - calm tech-editorial, not sci-fi warfare
 - 16:9; minimal text; no fake product UI
 -->
 ![Cowork sandbox as a clean room](images/ch01-sandbox-cleanroom.png)
@@ -94,7 +94,7 @@ Prompt advice:
 
 - **Manual**: pause and ask before sensitive or consequential steps (default mindset for learning)
 - **Always-allow (per task)**: approve a category of action for this run once you trust the pattern
-- **Auto-approve**: Cowork proceeds within policy—use only for low-blast-radius, well-understood jobs
+- **Auto-approve**: Cowork proceeds within policy - use only for low-blast-radius, well-understood jobs
 
 ![Approval modes](images/ch01-approval-modes.svg)
 
@@ -121,16 +121,16 @@ Prompt advice:
 <!-- below-columns -->
 
 > [!WARNING]
-> Students: start Manual in the lab. Earning trust is the skill—not skipping the gate.
+> Students: start Manual in the lab. Earning trust is the skill - not skipping the gate.
 
 ---
 
 # Where Cowork Sits in the Family
 
-- **Chat (Course 1)**: ask and refine
-- **Desktop (Course 2)**: Quick Entry and local extensions beside apps
-- **Cowork (today)**: multi-step plan-approve-execute in a sandbox
-- **Code (Course 4)**: engineering teams changing real codebases and cloud configs
+- **Claude.ai chat**: ask and refine one hop at a time
+- **Claude Desktop**: Quick Entry and local extensions beside apps
+- **Claude Cowork (today)**: multi-step plan-approve-execute in a sandbox
+- **Claude Code**: engineering teams changing real codebases and cloud configs
 
 ---
 
@@ -145,22 +145,22 @@ Prompt advice:
 
 # Tour: The Cowork Session Surface
 
-- Open the Cowork tab in Claude Desktop—or Cowork on claude.ai in a browser
+- Open the Cowork tab in Claude Desktop - or Cowork on claude.ai in a browser
 - Core pieces: task input, plan display, approval prompts, progress view
 - Read the plan like a work order, not like chat entertainment
 - Progress view is where you watch, pause and steer
 
-<!-- HUMAN SCREENSHOT: Replace images/ch01-cowork-session.svg with a real PNG of Cowork session UI (task input, plan, approval). Desktop or claude.ai — stay consistent in class. -->
+<!-- HUMAN SCREENSHOT: Replace images/ch01-cowork-session.svg with a real PNG of Cowork session UI (task input, plan, approval). Desktop or claude.ai - stay consistent in class. -->
 ![Cowork session interface](images/ch01-cowork-session.svg)
 
 ---
 
-# Instructor Demo: Open and Orient (5 Minutes)
+# Demo: Open and Orient (5 Minutes)
 
 1. Start a new Cowork session from Desktop or browser
 2. Point to task box, plan area, approval chrome and progress
 3. Type a tiny harmless task ("List the steps you would take to rename three sample files") without connecting real drives yet
-4. Show the plan appearing—and stop before any destructive action
+4. Show the plan appearing - and stop before any destructive action
 5. Narrate: "If you would not initial this plan on paper, do not approve it on screen."
 
 ---
@@ -169,7 +169,7 @@ Prompt advice:
 
 - Connect only the folder and connectors the task needs
 - Google Drive, Microsoft 365 and similar connectors reach only what you authorize
-- Over-scoping recreates the Course 2 `Downloads/` mistake—at agent speed
+- Over-scoping recreates the `Downloads/` catch-all mistake - at agent speed
 - Say the scope out loud before you hit go: "Only `SampleMessyFolder`, read then organize."
 
 <!-- HUMAN SCREENSHOT: Replace images/ch01-cowork-scope.svg with a real PNG showing Cowork authorized only to SampleMessyFolder (or class equivalent). -->
@@ -180,7 +180,7 @@ Prompt advice:
 <!-- layout: 2-column -->
 # Desktop Extension versus Cowork Scope
 
-### Desktop Extension (Course 2)
+### Desktop Extension
 - You invoke each ask
 - Local capability on standby
 - Great for one-hop questions
@@ -195,7 +195,7 @@ Prompt advice:
 # Mobile Dispatch (Awareness Only)
 
 - You can send or check a Cowork session from a phone in some setups
-- Useful for status checks—not for approving file moves on a subway glance
+- Useful for status checks - not for approving file moves on a subway glance
 - Classroom rule: approve consequential steps on a full screen where you can read the plan
 - Mention Dispatch so students are not surprised later; do not center the day on it
 
@@ -211,7 +211,7 @@ Approval: Manual for moves and deletes. Always-allow for listing and hashing dup
 Done when: Folder tree matches the three categories and a short change log is produced.
 ```
 
-- Same spirit as POCC—outcome, constraints, scope, done state
+- Same spirit as POCC - outcome, constraints, scope, done state
 - Ambiguous delegation creates confident wrong plans
 
 ---
@@ -228,8 +228,8 @@ Done when: Folder tree matches the three categories and a short change log is pr
 # The Mess We Will Use
 
 - Sample folder with deliberate junk: duplicate PDFs, mixed invoices/contracts/HR forms, odd filenames
-- Instructors: ship a zip students copy locally or into an approved cloud folder before the demo
-- Keep it fictional—no real employee SSNs, no real customer contracts
+- Prep a sample zip students can copy locally or into an approved cloud folder before the demo
+- Keep it fictional - no real employee SSNs, no real customer contracts
 - Success looks like structure and a change log, not "AI magic tidying"
 
 > [!TIP]
@@ -242,7 +242,7 @@ Done when: Folder tree matches the three categories and a short change log is pr
 - Hand Cowork the messy folder with a clear outcome brief
 - Watch it propose how it will detect duplicates and what it will do with them
 - Good plan: criteria, examples, what happens to losers of a duplicate pair
-- Bad plan: "I will clean everything up" with no specifics—reject and ask for detail
+- Bad plan: "I will clean everything up" with no specifics - reject and ask for detail
 
 <!-- HUMAN SCREENSHOT: Replace images/ch01-cleanup-plan.svg with a real PNG of Cowork's cleanup/classification plan before any moves execute. -->
 ![Cowork cleanup plan before approval](images/ch01-cleanup-plan.svg)
@@ -252,7 +252,7 @@ Done when: Folder tree matches the three categories and a short change log is pr
 # Demo Beat 2: Classification Before Motion
 
 - Ask Cowork to propose sorting into Invoices, Contracts and HR-Forms
-- Plan should show sample mappings—not silent bulk moves
+- Plan should show sample mappings - not silent bulk moves
 - Approve category rules first; then allow moves
 - If a file is ambiguous, require a holding folder (`Needs-Review`) instead of a guess
 
@@ -273,7 +273,7 @@ Done when: Folder tree matches the three categories and a short change log is pr
 
 ---
 
-# Instructor Demo Script (Clean and Classify)
+# Demo Script (Clean and Classify)
 
 1. Connect only `SampleMessyFolder`
 2. Paste the delegation brief
@@ -283,7 +283,7 @@ Done when: Folder tree matches the three categories and a short change log is pr
 6. Open the resulting tree and change log with the class
 
 > [!IMPORTANT]
-> Narrate hesitation. Students need to see an adult refuse a fuzzy plan—not only a happy path.
+> Narrate hesitation. Students need to see an adult refuse a fuzzy plan - not only a happy path.
 
 ---
 
@@ -291,8 +291,8 @@ Done when: Folder tree matches the three categories and a short change log is pr
 
 - Your folder is demonstrably cleaner and categorized
 - You can show the plan you approved (screenshot or notes)
-- You rejected or edited at least one step on purpose—even if the plan was good—to practice the muscle
-- If usage limits bite mid-lab, capture the plan review as the graded habit and finish moves after class on Max/Pro as policy allows
+- You rejected or edited at least one step on purpose - even if the plan was good - to practice the muscle
+- If usage limits bite mid-lab, capture the plan review as the graded habit and finish moves in class on Max/Pro as policy allows
 
 ---
 
@@ -321,13 +321,13 @@ Done when: Folder tree matches the three categories and a short change log is pr
 
 ---
 
-# Quiz 1 — Answer
+# Quiz 1: Answer
 
 **What is the essential difference between Chat and Cowork for office work?**
 
 **Correct: B.** Chat answers turns you drive; Cowork plans multi-step work and acts with approval gates
 
-- Shape of work changes—not just model IQ
+- Shape of work changes - not just model IQ
 - Approvals are the control plane
 - Scope still limits blast radius
 - Single-turn rewrites can stay in Chat
@@ -345,7 +345,7 @@ Done when: Folder tree matches the three categories and a short change log is pr
 
 ---
 
-# Quiz 2 — Answer
+# Quiz 2: Answer
 
 **A first-time folder cleanup will move and possibly delete files. Which approval posture fits best?**
 
@@ -359,7 +359,7 @@ Done when: Folder tree matches the three categories and a short change log is pr
 ---
 
 <!-- layout: 2-column -->
-# Quiz 3 of 3 — Discussion
+# Quiz 3 of 3: Discussion
 
 ### Prompt
 Cowork's plan says: "Remove duplicates and organize related files appropriately across your drive."
@@ -372,14 +372,14 @@ Cowork's plan says: "Remove duplicates and organize related files appropriately 
 ---
 
 <!-- layout: 2-column -->
-# Quiz 3 — Discussion Points
+# Quiz 3: Discussion Points
 
 **Cowork's plan says: "Remove duplicates and organize related files appropriately across your drive."**
 
 ### Strong Answers Mention
 - Vague verbs; unbounded scope; no duplicate criteria; no `Needs-Review`
 - Limit to one folder; define categories; quarantine before delete
-- Reject or edit heavily—do not approve as written
+- Reject or edit heavily - do not approve as written
 
 ### Watch For
 - "It probably knows what I mean"

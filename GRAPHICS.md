@@ -1,4 +1,4 @@
-# Graphics triage — content chapters only
+# Graphics triage: content chapters only
 
 Intro (`00-*`) and summary (`03-*`) chapters are out of scope. Stock `qa.png` / ROI logo left as-is.
 
@@ -13,23 +13,23 @@ Intro (`00-*`) and summary (`03-*`) chapters are out of scope. Stock `qa.png` / 
 ## SVG created here (teachable diagrams)
 
 ### Course 01
-- `ch01-tokens-chunks.svg` — tokens as counted chunks
-- `ch02-traffic-light-data.svg` — green/yellow/red upload guidance
+- `ch01-tokens-chunks.svg`: tokens as counted chunks
+- `ch02-traffic-light-data.svg`: green/yellow/red upload guidance
 - Plus prior: genai loop, context desk, projects, MasterClass path, POCC, deliverable chain
 
 ### Course 02
-- `ch01-tab-tax-math.svg` — switching cost napkin math
-- `ch02-narrow-vs-wide-scope.svg` — extension scope
+- `ch01-tab-tax-math.svg`: switching cost napkin math
+- `ch02-narrow-vs-wide-scope.svg`: extension scope
 - Plus prior: product family, extensions concept, upload vs extension, Cowork glimpse
 
 ### Course 03
-- `ch01-sandbox-lifecycle.svg` — create → work → destroy
-- `ch02-injection-defense.svg` — pause/reject loop
+- `ch01-sandbox-lifecycle.svg`: create → work → destroy
+- `ch02-injection-defense.svg`: pause/reject loop
 - Plus prior: ask vs delegate, approval modes, guardrails, Code glimpse
 
 ### Course 04
-- `ch01-cli-vs-desktop-code.svg` — why CLI for org-cloud routing
-- `ch02-five-point-review.svg` — AI diff checklist
+- `ch01-cli-vs-desktop-code.svg`: why CLI for org-cloud routing
+- `ch02-five-point-review.svg`: AI diff checklist
 - Plus prior: git basics, MasterClass path, code loop, cloud trust, agent teams
 
 ## Antigravity / Nano Banana (illustration)

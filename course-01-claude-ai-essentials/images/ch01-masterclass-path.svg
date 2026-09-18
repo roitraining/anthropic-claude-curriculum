@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
   <rect width="1200" height="675" fill="#f7f4ef"/>
-  <text x="60" y="70" font-family="Georgia, serif" font-size="36" fill="#1a1a1a">Claude MasterClass path</text>
+  <text x="60" y="70" font-family="Georgia, serif" font-size="36" fill="#1a1a1a">Claude product family</text>
   <rect x="70" y="160" width="240" height="280" rx="18" fill="#c45c26"/>
   <text x="190" y="250" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#ffffff">1. Claude.ai</text>
   <text x="190" y="295" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#ffe8da">Prompts  |  files</text>
@@ -19,5 +19,5 @@
   <text x="1000" y="250" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#ffffff">4. Code</text>
   <text x="1000" y="295" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#f3e6d0">Plan  |  approve</text>
   <text x="1000" y="325" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#f3e6d0">Execute  |  cloud</text>
-  <text x="60" y="520" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#444444">Same briefing and review habits scale into each later course.</text>
+  <text x="60" y="520" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#444444">Same briefing and review habits scale across Claude surfaces.</text>
 </svg>

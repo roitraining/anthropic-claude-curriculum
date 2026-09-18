@@ -29,23 +29,23 @@ Claude Cowork Essentials
 # Computer Use: Impressive and Uneven
 
 - Cowork can navigate real websites: open pages, fill forms, pull visible data
-- This is the most demo-worthy capability—and often the least predictable
+- This is the most demo-worthy capability - and often the least predictable
 - Teach the control pattern (pause, re-approve, stop) harder than the happy path
-- Use a boring, stable public page in class—not a flaky login maze
+- Use a boring, stable public page in class - not a flaky login maze
 
 <!-- HUMAN SCREENSHOT: Replace images/ch02-computer-use.svg with a real PNG of Cowork browser/computer-use mid-task with an approval/pause visible. Public demo site only. -->
 ![Cowork browser control in progress](images/ch02-computer-use.svg)
 
 ---
 
-# Instructor Demo: Browser Task With a Seatbelt
+# Demo: Browser Task With a Seatbelt
 
 1. State a tiny outcome: "Open [approved demo site]; extract the three pricing tier names into a bullet list."
 2. Scope: no passwords, no purchases, no internal URLs unless allowlisted
 3. Start on Manual for navigation that leaves the page or submits forms
 4. When Cowork proposes a step, approve or edit aloud
 5. Mid-task: pause, change an instruction, re-approve
-6. Stop cleanly even if incomplete—stopping is a successful teaching moment
+6. Stop cleanly even if incomplete - stopping is a successful teaching moment
 
 > [!WARNING]
 > Do not demo banking, HR portals or production admin consoles. Spectacle is not worth the incident.
@@ -74,7 +74,7 @@ Claude Cowork Essentials
 
 # Steering Beats Spectating
 
-- You can pause, redirect or stop a run at any time—practice doing it
+- You can pause, redirect or stop a run at any time - practice doing it
 - Re-approval after a change prevents "it kept going with the old plan"
 - Progress view is a cockpit, not a Netflix episode
 - Delegating does not mean abandoning the session
@@ -101,7 +101,7 @@ Claude Cowork Essentials
 
 # Scoped Access versus Always-On Extensions
 
-- Course 2 extensions sit ready for questions you initiate
+- Desktop Extensions sit ready for questions you initiate
 - Cowork scope is session fuel for a plan that may take many actions
 - Compare blast radius: one answer versus a chain of moves
 - Re-scope per job; do not leave wide connectors "for later"
@@ -118,7 +118,7 @@ Claude Cowork Essentials
 - Your job: treat unexpected instruction-like text as hostile until proven otherwise
 
 > [!IMPORTANT]
-> If a plan suddenly wants to leave the scoped folder or contact the outside world, reject first—investigate second.
+> If a plan suddenly wants to leave the scoped folder or contact the outside world, reject first - investigate second.
 
 ![Prompt injection defense loop](images/ch02-injection-defense.svg)
 
@@ -148,7 +148,7 @@ Prompt advice:
 - Organization-level connector allowlisting
 - Policies that limit always-allow and auto-approve
 - Admin visibility into Cowork activity for audit conversations
-- Classroom freedom may exceed production—send students home with the right questions
+- Classroom freedom may exceed production - send students home with the right questions
 
 ---
 
@@ -180,7 +180,7 @@ Prompt advice:
 | Done when | Three folders + change log |
 
 - If you cannot fill the card, you are not ready to delegate
-- Same idea as Course 2's Workflow Card—raised to multi-step work
+- Same idea as a Workflow Card - raised to multi-step delegated work
 
 ---
 
@@ -198,17 +198,17 @@ Prompt advice:
 - Session sandbox is created for the run and destroyed when the session ends
 - Do not treat sandbox scratch space as long-term records storage
 - Persist what you need into your approved systems before you close
-- Exact retention details follow current product docs and your org agreement—verify live
+- Exact retention details follow current product docs and your org agreement - verify live
 
 > [!TIP]
-> Instructors: open official Cowork/sandbox documentation during this slide if network allows. Fresh beats memorized.
+> Open official Cowork/sandbox documentation during this slide if network allows. Fresh beats memorized.
 
 ---
 
 # Network Isolation in Practice
 
 - No access to internal systems unless an admin explicitly allowlists it
-- Connectors and folders you attach are the doors—you choose which doors exist
+- Connectors and folders you attach are the doors - you choose which doors exist
 - "It is in the cloud" does not mean "it can see our VPC"
 - When in doubt, ask security how Cowork is configured for your tenant
 
@@ -216,7 +216,7 @@ Prompt advice:
 
 # Nothing Happens Without a Kickoff
 
-- Same Course 1 principle, upgraded: nothing happens without a prompt—or an explicit schedule your org enables
+- Core principle, upgraded: nothing happens without a prompt - or an explicit schedule your org enables
 - An idle Cowork tab is not quietly reorganizing your drive overnight by default
 - Scheduled runs, if available to your seat, deserve the same plan and scope discipline as live ones
 - Ownership stays human: someone accepted the plan
@@ -225,42 +225,42 @@ Prompt advice:
 
 # Glimpse Ahead: Claude Code
 
-- Code is for engineering teams working directly with a codebase and real cloud accounts
-- Same family discipline—plan, approve, execute—different artifacts (repos, PRs, infra)
+- Claude Code is for engineering teams working directly with a codebase and real cloud accounts
+- Same family discipline - plan, approve, execute - different artifacts (repos, PRs, infra)
 - Most of today's room will sponsor or collaborate with Code users, not become them overnight
-- Course 4 is the finale for that audience
+- Point technical partners here when the pain is software change, not folder work
 
 ![Claude Code preview](images/ch02-code-glimpse.svg)
 
 ---
 
 <!-- layout: 2-column -->
-# Who Should Take Course 4?
+# When Claude Code Fits
 
 ### Strong fit
 - Developers and DevOps
 - People who ship PRs
 - Teams with cloud accounts to change
 
-### Poor fit (for now)
+### Stay with Cowork when
 - Pure folder/research delegates
 - No repo access by design
-- Still learning Chat/Desktop habits
+- The job is an office packet, not a code change
 
 ---
 
-# Take-Home Lab Preview
+# Lab 2 Preview
 
 - Cowork Research and Report Sprint: delegate a short multi-step research task
 - Require a plan review, then a one-page report deliverable
 - Keep sources approved and scope tiny
-- Bring one lesson learned to share with your team—not raw sensitive findings
+- Bring one lesson learned to share with your team - not raw sensitive findings
 
 ---
 
-# Supplemental Lab (Take-Home): Cowork Research and Report Sprint
+# Lab 2: Cowork Research and Report Sprint
 
-**Time:** 30–45 minutes (after class)
+**Time:** 30-45 minutes (in class)
 
 ---
 
@@ -283,7 +283,7 @@ Prompt advice:
 
 ---
 
-# Quiz 1 — Answer
+# Quiz 1: Answer
 
 **Why might Cowork pause after reading a document or web page?**
 
@@ -307,7 +307,7 @@ Prompt advice:
 
 ---
 
-# Quiz 2 — Answer
+# Quiz 2: Answer
 
 **What is true about Cowork's default remote sandbox model taught in this class?**
 
@@ -321,7 +321,7 @@ Prompt advice:
 ---
 
 <!-- layout: 2-column -->
-# Quiz 3 of 3 — Discussion
+# Quiz 3 of 3: Discussion
 
 ### Prompt
 Jordan wants Cowork to "handle the Friday pack end to end" with Auto-approve and the whole Google Drive connected.
@@ -329,19 +329,19 @@ Jordan wants Cowork to "handle the Friday pack end to end" with Auto-approve and
 ### Discuss
 - What breaks first: quality, safety or both?
 - How would you rewrite the Delegation Card?
-- When does this become a Course 4 problem instead?
+- When is this really an engineering/automation problem instead?
 
 ---
 
 <!-- layout: 2-column -->
-# Quiz 3 — Discussion Points
+# Quiz 3: Discussion Points
 
 **Jordan wants Cowork to "handle the Friday pack end to end" with Auto-approve and the whole Google Drive connected.**
 
 ### Strong Answers Mention
 - Over-scope + auto-approve is maximum blast radius
 - Narrow folder; Manual on moves; explicit done state; change log
-- Code only if the pain is engineering automation—not folder work
+- Code only if the pain is engineering automation - not folder work
 
 ### Watch For
 - "Auto-approve will learn my preferences"

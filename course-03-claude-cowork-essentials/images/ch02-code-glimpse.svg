@@ -5,5 +5,5 @@
   <rect x="120" y="180" width="960" height="280" rx="24" fill="#1f3d36"/>
   <text x="600" y="280" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="28" fill="#ffffff">Plan  |  Approve  |  Execute</text>
   <text x="600" y="340" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#d7ebe3">Same discipline  |  Different artifacts: repos, PRs, cloud changes</text>
-  <text x="60" y="540" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#444444">Most of today's room sponsors Code users; Course 4 trains them.</text>
+  <text x="60" y="540" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#444444">Most of today's room sponsors Code users; Claude Code trains them.</text>
 </svg>

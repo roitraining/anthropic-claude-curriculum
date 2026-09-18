@@ -30,11 +30,11 @@ Claude.ai Essentials
 
 - Jordan is an operations coordinator at a mid-size company
 - Typical week: vendor delay emails, meeting notes, a Friday status pack for their manager
-- Jordan is smart and busy—not a programmer, not an AI hobbyist
+- Jordan is smart and busy - not a programmer, not an AI hobbyist
 - We will solve Jordan's jobs today; map them to your real work in the lab
 
 > [!NOTE]
-> Instructors: keep Jordan on the whiteboard or a sticky. Every demo should answer "what would Jordan do?"
+> Keep Jordan on the whiteboard or a sticky. Every demo should answer "what would Jordan do?"
 
 ---
 
@@ -42,7 +42,7 @@ Claude.ai Essentials
 
 - Three prompts Jordan (and you) would actually reuse: email, summary, meeting recap
 - Enough interface fluency to find chats, uploads and Projects without hunting
-- A plain-language feel for why vague asks waste time—and how to stop
+- A plain-language feel for why vague asks waste time - and how to stop
 - One personal task bookmarked for the afternoon deliverable chain
 
 ---
@@ -52,7 +52,7 @@ Claude.ai Essentials
 - Claude predicts useful next text from patterns in language
 - It is not a company database and not a search engine with guaranteed citations
 - Your job is to brief it like a capable colleague and verify anything that binds the business
-- Fluent wrong answers are the hazard—not blank stares
+- Fluent wrong answers are the hazard - not blank stares
 
 ![How generative AI responds](images/ch01-genai-loop.svg)
 
@@ -60,9 +60,9 @@ Claude.ai Essentials
 
 # The Office Analogy That Sticks
 
-- Imagine a fast junior analyst who has read a lot—but was not in your meeting
+- Imagine a fast junior analyst who has read a lot - but was not in your meeting
 - If you say "handle the vendor thing," they invent a polished story
-- If you say who you are, what happened, what you can offer, and what not to promise—they draft something editable
+- If you say who you are, what happened, what you can offer, and what not to promise - they draft something editable
 - Claude behaves the same way; specificity is the brief, not a "prompt trick"
 
 <!-- ANTIGRAVITY / NANO BANANA
@@ -71,7 +71,7 @@ Slide: The Office Analogy That Sticks
 Prompt advice:
 - Scene: professional briefing a capable junior colleague at a clean office desk
 - Contrast cue: one sticky note says vague "handle the vendor thing"; a second card shows a clear brief (role, goal, facts, limits)
-- Mood: warm, credible corporate training illustration — not cartoon slapstick, not dark dystopia
+- Mood: warm, credible corporate training illustration - not cartoon slapstick, not dark dystopia
 - Composition: 16:9, subject-readable from the back of a classroom, minimal text in-image
 - Avoid: Claude logos, fake UI screenshots, readable real employee names
 -->
@@ -81,10 +81,10 @@ Prompt advice:
 
 # Tokens in Plain English
 
-- Claude reads and writes in tokens—small chunks of text (often pieces of words)
+- Claude reads and writes in tokens - small chunks of text (often pieces of words)
 - Longer prompts, longer replies, and uploaded files all consume tokens
 - Providers meter usage by token volume; wandering retries cost money and calendar time
-- You do not need to count tokens—you need to stop burning them on clarification loops
+- You do not need to count tokens - you need to stop burning them on clarification loops
 
 ![Tokens are chunks Claude counts](images/ch01-tokens-chunks.svg)
 
@@ -106,14 +106,14 @@ Prompt advice:
 <!-- below-columns -->
 
 > [!TIP]
-> Instructors: run a stopwatch on the live vague-versus-structured demo. Time is more persuasive than theory.
+> Run a stopwatch on the live vague-versus-structured demo. Time is more persuasive than theory.
 
 ---
 
 # Context Window = The Desk in Front of Claude
 
 - Everything in the current chat sits on Claude's temporary desk: your messages, replies, file text
-- When the desk fills, older details can fall out of reach—quality gets weird or forgetful
+- When the desk fills, older details can fall out of reach - quality gets weird or forgetful
 - One endless mega-chat about five unrelated jobs is how desks overflow
 - Projects and fresh chats are how professionals keep the desk clean
 
@@ -139,7 +139,7 @@ Prompt advice:
 # Why Meaning "Nearness" Matters (Lightly)
 
 - Claude connects related ideas even when wording differs ("ship slip" and "delivery delay")
-- That helps—and it also means vague asks activate too many nearby meanings
+- That helps - and it also means vague asks activate too many nearby meanings
 - Fix "off topic" replies with concrete nouns: system names, dates, audience, format
 - Skip the math; keep the habit: name the thing
 
@@ -152,8 +152,8 @@ Prompt advice:
 
 - Many teams already have Microsoft Copilot inside Word, Outlook or Teams
 - Copilot wins for light help inside those apps; Claude.ai wins for careful multi-file briefs and reusable Projects
-- Policy decides what is allowed—technique cannot override a ban
-- Course 2 (Desktop) is how Claude moves beside those same apps without living only in a browser tab
+- Policy decides what is allowed - technique cannot override a ban
+- Claude Desktop can put the same assistant beside those apps when your work lives outside the browser
 
 ---
 
@@ -178,12 +178,12 @@ Prompt advice:
 
 ---
 
-# Instructor Demo: 90-Second Orientation
+# Demo: 90-Second Orientation
 
 - Create a chat named `Jordan - vendor delay email`
 - Paste a one-line ask, send, then show how to rename and find it in history
 - Upload a tiny sample PDF (or paste a short policy paragraph) and ask one question that requires it
-- Point at privacy/account settings without doom-scrolling—just "know this exists"
+- Point at privacy/account settings without doom-scrolling - just "know this exists"
 
 > [!NOTE]
 > Use non-sensitive sample files prepared before class. Never demo with a real customer contract.
@@ -195,7 +195,7 @@ Prompt advice:
 - Name chats by outcome: `Fri status pack`, not `Chat 12`
 - One primary job per chat; fork a new chat when the goal changes
 - After a win, copy the prompt into a personal template note
-- Archive or ignore dead ends—do not keep "teaching" a confused thread
+- Archive or ignore dead ends - do not keep "teaching" a confused thread
 
 ---
 
@@ -203,7 +203,7 @@ Prompt advice:
 
 - A Project holds standing instructions plus reference files for a repeating job
 - Jordan's candidates: vendor comms standards, weekly status sources, onboarding FAQ
-- New chats inside the Project reuse that context—no Monday re-upload ritual
+- New chats inside the Project reuse that context - no Monday re-upload ritual
 - Update files when the source of truth changes; stale Projects create confident wrong digests
 
 ![Projects keep context together](images/ch01-projects-concept.svg)
@@ -240,14 +240,14 @@ Prompt advice:
 
 ---
 
-# MasterClass Map (So Today Has a Horizon)
+# Where Claude Fits in the Product Family
 
-- **Today — Claude.ai**: judgment, prompts, files, review
-- **Desktop**: Quick Entry and local extensions beside your apps
-- **Cowork**: multi-step handoff with plan-then-approve
-- **Code**: engineering plan-approve-execute on real cloud work
+- **Claude.ai**: chat, Projects, uploads and everyday drafting
+- **Claude Desktop**: Quick Entry and local extensions beside your apps
+- **Claude Cowork**: multi-step handoff with plan-then-approve
+- **Claude Code**: plan-approve-execute for engineering changes
 
-![Claude MasterClass path](images/ch01-masterclass-path.svg)
+![Claude product family](images/ch01-masterclass-path.svg)
 
 ---
 
@@ -265,7 +265,7 @@ Prompt advice:
 - Job: tell Acme Ops that order 4821 ships one week late
 - **Vague**: "Help with the customer email about the delay"
 - **Structured**: role, goal, facts, tone, length, must-nots
-- Instructors: send both. Leave both answers on screen. Ask the room which they would sign.
+- send both. Leave both answers on screen. Ask the room which they would sign.
 
 > [!IMPORTANT]
 > Do not skip the side-by-side. This is the chapter's "aha" moment.
@@ -302,7 +302,7 @@ Constraints: No discounts. Do not name vendors. Do not apologize more than once.
 End with Tue 10:00 or Wed 14:00 call options.
 ```
 
-- First reply should be editable—not perfect
+- First reply should be editable - not perfect
 - Human checks: date, order ID, offers, tone
 - Save the shell as a template; swap Context next time
 
@@ -326,7 +326,7 @@ Audience: Jordan's manager, five-minute read.
 Persona: You are the meeting organizer writing a recap people will actually read.
 Objective: Turn rough notes into a recap with decisions, action items and owners.
 Context: [paste notes]. Meeting: Weekly ops sync. Date: [today].
-Constraints: Action items must have an owner and a due date—or mark "owner TBD".
+Constraints: Action items must have an owner and a due date - or mark "owner TBD".
 No fluff. Max 200 words before the action table.
 ```
 
@@ -387,7 +387,7 @@ No fluff. Max 200 words before the action table.
 
 ---
 
-# Quiz 1 — Answer
+# Quiz 1: Answer
 
 **Why do specific prompts usually cost less time and money than vague ones?**
 
@@ -411,7 +411,7 @@ No fluff. Max 200 words before the action table.
 
 ---
 
-# Quiz 2 — Answer
+# Quiz 2: Answer
 
 **Jordan runs the same Friday status pack every week. What should they set up?**
 
@@ -425,7 +425,7 @@ No fluff. Max 200 words before the action table.
 ---
 
 <!-- layout: 2-column -->
-# Quiz 3 of 3 — Discussion
+# Quiz 3 of 3: Discussion
 
 ### Prompt
 A colleague pastes "rewrite this nicer" under a long client email and hits send on Claude's first draft.
@@ -438,7 +438,7 @@ A colleague pastes "rewrite this nicer" under a long client email and hits send 
 ---
 
 <!-- layout: 2-column -->
-# Quiz 3 — Discussion Points
+# Quiz 3: Discussion Points
 
 **A colleague pastes "rewrite this nicer" under a long client email and hits send on Claude's first draft.**
 

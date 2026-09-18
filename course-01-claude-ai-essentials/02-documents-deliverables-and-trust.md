@@ -45,7 +45,7 @@ Prompt advice:
 - Tone: relatable ROI classroom hero; warm lighting; 16:9
 - Avoid: readable confidential text, real logos, uncanny faces
 -->
-![Jordan's Friday status crunch](images/ch01-jordan-friday.svg)
+![Jordan's Friday status crunch](images/ch01-jordan-friday.png)
 
 ---
 
@@ -250,7 +250,7 @@ Prompt advice:
 - 16:9, limited text in-image (optional tiny "sounds right" vs "is right")
 - Avoid: fake Claude UI, real company marks, grotesque imagery
 -->
-![Plausible but wrong](images/ch02-plausible-wrong.svg)
+![Plausible but wrong](images/ch02-plausible-wrong.png)
 
 ---
 

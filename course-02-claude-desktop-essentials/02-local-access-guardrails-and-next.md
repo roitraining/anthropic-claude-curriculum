@@ -117,7 +117,7 @@ Prompt advice:
 - 16:9; no readable PII; no real Claude UI chrome
 - Optional small caption space: "Catch-all folders are not scopes"
 -->
-![The Downloads folder trap](images/ch02-downloads-trap.svg)
+![The Downloads folder trap](images/ch02-downloads-trap.png)
 
 ---
 

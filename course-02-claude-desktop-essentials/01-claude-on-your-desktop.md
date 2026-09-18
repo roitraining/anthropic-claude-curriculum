@@ -76,7 +76,7 @@ Prompt advice:
 - No readable confidential email text; no fake product chrome that pretends to be Claude UI
 - Classroom-readable from distance
 -->
-![The tab-switching tax](images/ch01-context-switching.svg)
+![The tab-switching tax](images/ch01-context-switching.png)
 
 ---
 

@@ -130,7 +130,7 @@ Prompt advice:
 - Educational, not horror; 16:9; minimal readable text (fake "ignore prior rules" is OK if tiny)
 - No real company brands; no fake Claude screenshots
 -->
-![Prompt injection in a document](images/ch02-prompt-injection.svg)
+![Prompt injection in a document](images/ch02-prompt-injection.png)
 
 ---
 

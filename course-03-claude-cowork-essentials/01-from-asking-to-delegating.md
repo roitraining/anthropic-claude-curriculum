@@ -86,7 +86,7 @@ Prompt advice:
 - Metaphor for ephemeral isolated execution — calm tech-editorial, not sci-fi warfare
 - 16:9; minimal text; no fake product UI
 -->
-![Cowork sandbox as a clean room](images/ch01-sandbox-cleanroom.svg)
+![Cowork sandbox as a clean room](images/ch01-sandbox-cleanroom.png)
 
 ---
 

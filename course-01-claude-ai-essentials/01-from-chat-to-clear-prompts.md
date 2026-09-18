@@ -75,7 +75,7 @@ Prompt advice:
 - Composition: 16:9, subject-readable from the back of a classroom, minimal text in-image
 - Avoid: Claude logos, fake UI screenshots, readable real employee names
 -->
-![Briefing a capable colleague](images/ch01-office-analogy.svg)
+![Briefing a capable colleague](images/ch01-office-analogy.png)
 
 ---
 

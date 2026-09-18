@@ -45,7 +45,7 @@ Prompt advice:
 - Hopeful technical illustration; warm light at the end of the maze
 - 16:9; no proprietary code text; no horror/cyberpunk overload
 -->
-![Inheriting an unfamiliar codebase](images/ch01-inherited-codebase.svg)
+![Inheriting an unfamiliar codebase](images/ch01-inherited-codebase.png)
 
 ---
 

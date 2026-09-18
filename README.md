@@ -1,40 +1,8 @@
-# ROI Course Authoring Template
+# Claude MasterClass
 
-Template repository for ROI Training **slide courses** and (soon) **labs**.  
-It does **not** include the slide or lab viewer apps—only what instructors need to author content with an AI coding agent.
-
-## What’s in this repo
-
-| Path | Purpose |
+| Course | Description |
 | :--- | :--- |
-| `course-01-claude-ai-essentials/` | Course 1 slides + images |
-| `course-02-claude-desktop-essentials/` | Course 2 slides + images |
-| `course-03-claude-cowork-essentials/` | Course 3 slides + images |
-| `course-04-claude-code-essentials/` | Course 4 slides + images |
-| `course/` | Sample/template slides + stock graphics |
-| `labs/` | One folder per lab (`lab.md` + `images/`) |
-| `.agents/skills/course-generator/` | Rules and layout templates for slide courses |
-| `.agents/skills/lab-generator/` | Rules and templates for hands-on labs |
-| `.cursorrules`, `CLAUDE.md`, `AGENTS.md`, `.github/copilot-instructions.md` | Point every common coding agent at the skills |
-
-## Quick start
-
-1. **Create your course repo** from this template (GitHub → *Use this template*), or clone/copy it.
-2. **Open the repo** in Cursor, VS Code (Copilot), Claude Code, Antigravity, or another agent-capable editor.
-3. **Ask the agent** to create a course, for example:
-   - *“Using the Course Generator skill, outline a 1-day intermediate course on … then write the chapter files under `course/`.”*
-4. **Put slides under `course/`** (multi-file: `00-introduction.md`, `01-….md`, …) and keep shared graphics in `course/images/`.
-5. **Preview slides** in the hosted HTML Slides Viewer (paste your GitHub course folder URL):
-   - https://roitraining.github.io/md-to-html-slides-viewer/
-6. **Labs** go under `labs/lab-NN-slug/` with `lab.md` (see Lab Generator skill). Preview at https://labv.roitraining.com/ (paste the lab folder URL).
-
-Full workflow: **[AUTHORING.md](AUTHORING.md)**.
-
-## Sample
-
-Open `course/sample-course.md` in the slides viewer to see layouts and stock intro/outro images.
-
-## Related products
-
-- Slides viewer: https://github.com/roitraining/md-to-html-slides-viewer  
-- Lab viewer: https://labv.roitraining.com/ (source: https://github.com/roitraining/md-to-html-lab-viewer)  
+| [Claude.ai Essentials](https://slidesv.roitraining.com/?course=https%3A%2F%2Fgithub.com%2Froitraining%2Fanthropic-claude-curriculum%2Fblob%2Fmain%2Fcourse-01-claude-ai-essentials%2F00-introduction.md#slide-1) | Everyday office work, solved — structured prompts, Projects, summaries, reports and charts in the Claude.ai web interface |
+| [Claude Desktop Essentials](https://slidesv.roitraining.com/?course=https%3A%2F%2Fgithub.com%2Froitraining%2Fanthropic-claude-curriculum%2Fblob%2Fmain%2Fcourse-02-claude-desktop-essentials%2F00-introduction.md#slide-1) | Work without the tab-switching tax — Quick Entry, Desktop Extensions and local-file workflows |
+| [Claude Cowork Essentials](https://slidesv.roitraining.com/?course=https%3A%2F%2Fgithub.com%2Froitraining%2Fanthropic-claude-curriculum%2Fblob%2Fmain%2Fcourse-03-claude-cowork-essentials%2F00-introduction.md#slide-1) | Delegate the multi-step work — plan, approve and execute with Cowork |
+| [Claude Code Essentials](https://slidesv.roitraining.com/?course=https%3A%2F%2Fgithub.com%2Froitraining%2Fanthropic-claude-curriculum%2Fblob%2Fmain%2Fcourse-04-claude-code-essentials%2F00-introduction.md#slide-1) | Agentic coding in your cloud — plan-approve-execute through the Claude Code CLI on AWS, Google Cloud or Azure |

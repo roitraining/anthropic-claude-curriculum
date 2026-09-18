@@ -107,7 +107,7 @@ Prompt advice:
 - Clean infographic; no real key strings; 16:9; high contrast for classroom projection
 - Serious compliance tone, not meme comedy
 -->
-![Don't paste secrets into prompts](images/ch02-secrets-in-prompt.svg)
+![Don't paste secrets into prompts](images/ch02-secrets-in-prompt.png)
 
 ---
 

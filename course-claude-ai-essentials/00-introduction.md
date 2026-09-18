@@ -22,6 +22,15 @@
 
 ---
 
+# What You Walk Out With Today
+
+- Three reusable prompts for real office work: email, summary, meeting recap
+- A clear picture of chat, Projects, uploads and human review
+- One deliverable chain you can repeat: notes → summary → report → chart
+- A preview of Desktop, Cowork and Code so you know what comes next
+
+---
+
 # Course Objectives
 
 - **Put Claude.ai to work on real office tasks this week**—clear prompts, safer file use, and one reusable deliverable—without writing code

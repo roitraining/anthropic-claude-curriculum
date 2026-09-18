@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+  <rect width="1200" height="675" fill="#f7f4ef"/>
+  <text x="60" y="70" font-family="Georgia, serif" font-size="34" fill="#1a1a1a">Ask versus delegate</text>
+  <rect x="80" y="140" width="480" height="400" rx="20" fill="#ffffff" stroke="#d9d0c3" stroke-width="2"/>
+  <text x="110" y="200" font-family="Helvetica, Arial, sans-serif" font-size="26" fill="#1a1a1a">Chat: Ask</text>
+  <text x="110" y="260" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#555555">You drive every turn</text>
+  <text x="110" y="305" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#555555">Great for drafts and answers</text>
+  <text x="110" y="350" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#555555">One hop at a time</text>
+  <text x="110" y="410" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#555555">Courses 1 and 2 home base</text>
+  <rect x="640" y="140" width="480" height="400" rx="20" fill="#2f5d50"/>
+  <text x="670" y="200" font-family="Helvetica, Arial, sans-serif" font-size="26" fill="#ffffff">Cowork: Delegate</text>
+  <text x="670" y="260" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#d7ebe3">You set the outcome</text>
+  <text x="670" y="305" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#d7ebe3">Cowork proposes a plan</text>
+  <text x="670" y="350" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#d7ebe3">You approve gates that matter</text>
+  <text x="670" y="410" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#d7ebe3">Multi-step packets</text>
+</svg>

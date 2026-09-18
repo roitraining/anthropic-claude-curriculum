@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+  <rect width="1200" height="675" fill="#f7f4ef"/>
+  <text x="60" y="70" font-family="Georgia, serif" font-size="34" fill="#1a1a1a">Claude Code is nextfor builders</text>
+  <rect x="120" y="180" width="960" height="280" rx="24" fill="#1f3d36"/>
+  <text x="600" y="280" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="28" fill="#ffffff">Plan · Approve · Execute</text>
+  <text x="600" y="340" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#d7ebe3">Same discipline · Different artifacts: repos, PRs, cloud changes</text>
+  <text x="60" y="540" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#444444">Most of today's room sponsors Code users; Course 4 trains them.</text>
+</svg>

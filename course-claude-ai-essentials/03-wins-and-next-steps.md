@@ -26,27 +26,41 @@ Claude.ai Essentials
 
 ---
 
-# Features versus Time Saved
+# Stop Counting Features—Count Minutes
 
-- **Thesis**: Measure wins in minutes returned to real work—not in features touched
-- Prompt templates cut blank-page time on recurring emails and recaps
-- Projects cut re-brief and re-upload time on weekly packs
-- Guardrails cut rework when a fluent draft would have been wrong
+- Blank-page time dies when a POCC template exists
+- Re-brief time dies when a Project holds standing instructions
+- Rework time dies when you catch plausible-but-wrong before send
+- Jordan's win is a Friday pack that takes half as long—not a longer AI vocabulary
 
 ---
 
 <!-- layout: 2-column -->
-# Where Time Usually Returns
+# Before versus After Today
 
-### Before Claude.ai habits
+### Before
 - Stare at a blank box
 - Re-explain context every chat
 - Rewrite the same email type weekly
+- Hope the fluent draft is true
 
-### After today's habits
+### After
 - Fill a POCC template
 - Open the right Project
 - Edit a strong first draft
+- Run a 60-second send check
+
+---
+
+# A Rough ROI Sketch (Teach, Don't Overclaim)
+
+- Three recurring tasks × 10 minutes saved each week = 30 minutes
+- That is 26 hours a year before you count fewer embarrassing corrections
+- Your numbers will differ—make students do the napkin math on their task
+- The habit matters more than the exact spreadsheet
+
+> [!TIP]
+> Instructors: ask for three task names aloud, then multiply by a conservative 5–10 minutes. Keep it grounded.
 
 ---
 
@@ -59,24 +73,24 @@ Claude.ai Essentials
 
 ---
 
-# Reflection: Pick One Task
+# Reflection: Pick One Task (2 Quiet Minutes)
 
-- **Thesis**: Skill sticks when it attaches to a job you already own
-- Name one recurring task you will try with Claude.ai within seven days
-- Write the POCC skeleton now: Persona, Objective, Context slots, Constraints
-- Decide whether it belongs in a plain chat or a Project
+- Name one recurring task you own
+- Write a POCC skeleton now: Persona, Objective, Context slots, Constraints
+- Decide: plain chat or Project?
+- Decide: what must never be uploaded?
 
 > [!NOTE]
-> Instructors: give two quiet minutes, then invite a few volunteers to share task names only—not confidential details.
+> Share task names only—not confidential details. Celebrate boring, high-frequency work.
 
 ---
 
-# A Simple Success Check
+# Success Checklist for Day 7
 
-- **Thesis**: Success is a reusable prompt plus a human-reviewed deliverable
-- Did the first or second reply become something you would edit and send?
-- Did you catch at least one fact that needed a source check?
-- Can a future-you find the template without hunting through random chats?
+- I reused at least one lab prompt on real work
+- I edited before I sent
+- I caught at least one fact that needed a source check—or confirmed none were needed
+- Future-me can find the template without archaeology
 
 ---
 
@@ -89,20 +103,20 @@ Claude.ai Essentials
 
 ---
 
-# Why Claude.ai First
+# Why We Started in the Browser
 
-- **Thesis**: Web Claude.ai builds judgment before you add local files, agents or code
-- You practiced briefing, grounding and review—the same muscles later courses extend
-- Desktop, Cowork and Code amplify work; they do not replace clear asks
-- Starting here keeps the MasterClass practical for mixed office audiences
+- Judgment before power: briefing, grounding, review
+- Desktop, Cowork and Code amplify those muscles—they do not replace them
+- Mixed office audiences get a fair on-ramp without installs on day one
+- If today felt useful, you are ready for the tab-switching fight in Course 2
 
 ---
 
 # Where the MasterClass Goes Next
 
-- **Claude Desktop Essentials**: Quick Entry from other apps; safer hooks to local files and calendar
-- **Claude Cowork Essentials**: Hand off multi-step work; review a plan before the agent acts
-- **Claude Code Essentials**: Plan-approve-execute a small real code change on your cloud account
+- **Claude Desktop Essentials**: Quick Entry; local files and calendar through Extensions
+- **Claude Cowork Essentials**: Multi-step handoff; review the plan before the agent acts
+- **Claude Code Essentials**: Plan-approve-execute for engineering teams on real cloud accounts
 
 ![Claude MasterClass path](images/ch01-masterclass-path.svg)
 
@@ -110,26 +124,27 @@ Claude.ai Essentials
 
 # Leave-Behind Resources
 
-- **Prompt starter sheet**: POCC blanks for email, summary and meeting recap
-- **Take-home lab**: Fact-Checking and Grounding AI Output
-- **Official docs**: Claude.ai product help and Anthropic data-handling pages
-- **Your three lab prompts**: save them where you actually write
+- Prompt starter sheet: POCC blanks for email, summary and meeting recap
+- Take-home lab: Fact-Checking and Grounding AI Output
+- Official Claude.ai help and Anthropic data-handling pages
+- Your three lab prompts—saved where you actually write
 
 > [!TIP]
-> Instructors: distribute the starter sheet and take-home lab PDF or link before dismissing class.
+> Instructors: hand out the starter sheet before Q and A so packing-up does not kill distribution.
 
 ---
 
 # Day Recap
 
-- Tokens and context explain why specificity pays
-- Claude.ai chat, history, uploads and Projects are your daily workbench
-- POCC turns vague requests into reusable briefs
-- Files, summaries, reports and charts connect into one deliverable chain
-- Guardrails and human review keep fluent answers from becoming business errors
+- Specific briefs beat clever wording
+- Claude.ai chat, history, uploads and Projects are the daily workbench
+- POCC makes prompts reusable assets
+- Notes → summary → report → chart is a teachable chain
+- Fluent is not verified—ownership stays human
 
 ---
 
+<!-- layout: stacked -->
 # Questions and Answers
 
-Questions?
+![Questions and Answers](images/qa.png)

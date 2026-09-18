@@ -26,12 +26,24 @@ Claude.ai Essentials
 
 ---
 
-# Upload Once, Ask Many Questions
+# Jordan's Friday Problem
 
-- **Thesis**: File upload turns Claude from a blank chat into a grounded work session
-- Use a real office document: policy, report excerpt, contract summary or meeting pack
-- Ask questions that require the file—not questions Claude could invent from general knowledge
-- Cite or quote the passage you relied on before you reuse the answer downstream
+- Three messy inputs: email thread snippets, meeting notes, a small metrics export
+- Manager wants a one-page status plus a simple chart by 3:00
+- Doing it by hand means copy-paste archaeology and a blank page
+- Today we build the chain: ground → summarize → report → chart → check
+
+> [!NOTE]
+> Instructors: prep a tiny sample pack before class (3 short text files or one PDF + CSV). Keep it fictional and boring on purpose.
+
+---
+
+# Grounded Questions Beat Clever Guesses
+
+- Upload the source, then ask questions the file must answer
+- Bad: "What is our refund policy in general?" (Claude may invent a plausible policy)
+- Good: "According to the uploaded policy, what is the refund window for hardware?"
+- Require a quote or section reference before you reuse the answer
 
 <!-- TODO IMAGE: Screenshot of Claude.ai chat with a document uploaded and a grounded question -->
 ![Document upload in Claude.ai](images/ch02-file-upload.png)
@@ -39,36 +51,61 @@ Claude.ai Essentials
 ---
 
 <!-- layout: 2-column -->
-# Safe Use versus High Risk
+# Demo Pair: Invented versus Quoted
 
-### Safer patterns
-- Public or approved internal docs per policy
-- Redact names, IDs and secrets first
-- Prefer Projects for recurring file sets
-- Human review before customer send
+### Ungrounded ask
+- No file attached
+- "What does our travel policy allow for hotels?"
+- Sounds official; may be fiction
 
-### High-risk patterns
-- Raw proprietary IP "just to try"
-- Personal data, health or payroll detail
-- Credentials, keys or full contracts when banned
-- Blind trust because the tone sounds official
-
-<!-- below-columns -->
-
-> [!WARNING]
-> "It is only a draft" is not a control. Once text leaves Claude, it can be forwarded, pasted or screenshotted.
+### Grounded ask
+- Policy PDF attached
+- "Quote the hotel cap and the section title."
+- Editable only after the quote matches
 
 ---
 
-# Projects Keep Related Files Together
+# Redact Before You Upload
 
-- **Thesis**: Re-uploading the same pack every Monday wastes time and invites version mistakes
-- Store the standing brief and reference files in a Project
-- Start each recurring chat inside that Project so context travels with you
-- Retire or replace stale files when the source of truth changes
+- Strip or mask: personal emails, phone numbers, account IDs, salary, health notes
+- Replace real customer names with Acme / Contoso in classroom packs
+- If policy forbids the document class, do not upload—summarize allowed facts by hand instead
+- "I will delete the chat later" is not a control
+
+> [!WARNING]
+> Drafts escape. Assume anything you upload could be screenshotted or forwarded.
+
+---
+
+<!-- layout: 3-column -->
+# Traffic Light: What May Go In?
+
+### Green (usually)
+- Public web copy
+- Approved templates
+- Your own rough notes with names removed
+
+### Yellow (ask first)
+- Internal process docs
+- Vendor emails with redaction
+- Metrics without customer PII
+
+### Red (stop)
+- Secrets and passwords
+- Raw HR / health / payroll
+- Contracts your policy bans
+
+---
+
+# Projects for the Weekly Pack
+
+- Put Jordan's standing brief in a Project: audience, tone, section order, chart rules
+- Attach the recurring reference files once; refresh when sources change
+- Start each Friday chat inside that Project
+- Name it for the outcome: `Weekly ops status pack`
 
 > [!TIP]
-> Name Projects by outcome and cadence: "Monthly ops digest" beats "New Project."
+> Add one Project instruction: "If sources conflict, list both—do not silently pick a winner."
 
 ---
 
@@ -81,65 +118,91 @@ Claude.ai Essentials
 
 ---
 
-# The Deliverable Chain
+# The Deliverable Chain (Teach This Shape)
 
-- **Thesis**: Today's power move is a chain, not a single clever prompt
-- Scattered notes or files → consolidated summary → short report → optional chart
-- Each step is a separate ask with a clear output shape
-- Iteration beats one giant "do everything" prompt that mixes goals
+- Scattered notes → consolidated summary → short report → optional chart
+- One narrow POCC brief per hop—not one mega-prompt
+- Pause after each hop: what improved, what still needs a human
+- This is the skill students remember on Monday
 
 ![From messy notes to deliverable](images/ch02-deliverable-chain.svg)
 
 ---
 
-# Step 1: Summarize Scattered Sources
+# Sample Inputs (Read These Aloud)
 
-- **Thesis**: Summarize each source for facts first—opinions second
-- Upload two or three short sources (notes, emails, a spreadsheet export)
-- Ask for a consolidated bullet brief: decisions, owners, dates, open questions
-- Require Claude to flag conflicts between sources instead of silently picking one
+- **Notes A**: "Acme delay discussed; new date Friday?; Sam owns vendor chase"
+- **Notes B**: "Ship date confirmed Friday. No discount. Call offered Tue/Wed."
+- **Metrics**: Week 1: 12 open tickets. Week 2: 9. Week 3: 7. Week 4: 8.
+- Notice the conflict risk on the Acme date until Notes B confirms it
+
+---
+
+# Step 1 Prompt: Consolidate
 
 ```text
-Objective: Consolidate these three notes into one bullet brief.
-Include: decisions, owners, dates, open questions, conflicts between sources.
-Constraints: No new recommendations. Quote source labels for contested facts.
+Persona: Operations analyst briefing a manager.
+Objective: One bullet brief from the three sources.
+Include: decisions, owners, dates, open questions, conflicts.
+Constraints: No recommendations. Label conflicts with source names.
+Sources: Notes A, Notes B, Metrics export.
 ```
 
----
-
-# Step 2: Draft the Short Report
-
-- **Thesis**: Promote the brief into a report with audience and length constraints
-- Specify reader (manager, client, cross-team) and section headings up front
-- Ask for a first draft, then a tightening pass: shorter, clearer, fewer hedges
-- Keep human ownership of recommendations and numbers that bind the business
-
-> [!IMPORTANT]
-> Numbers that will be forwarded need a source check. Claude can misread tables even when the prose sounds polished.
+- Good output flags the Acme date uncertainty until resolved
+- Bad output quietly "decides" Friday without labeling the conflict
 
 ---
 
-# Step 3: Add a First-Look Chart
+# Step 2 Prompt: Promote to a Report
 
-- **Thesis**: Claude can render a basic chart in chat when the data is clear enough
-- Use a bar or line chart for a single comparison students can verify by eye
-- Tell Claude the exact series, labels and what the chart must not imply
-- Treat the chart as a first look for discussion—not a board-ready graphic by default
+```text
+Objective: Turn the bullet brief into a half-page status for Jordan's manager.
+Sections: Highlights · Risks · Asks.
+Constraints: 180 words max. Keep every date and owner. No new metrics.
+Tone: Direct, no hype.
+```
+
+- Then iterate: "Cut hedges. Keep numbers. Make Asks a bulleted list."
+- Human owns any recommendation that commits the team
+
+---
+
+# Step 3 Prompt: First-Look Chart
+
+```text
+Objective: Create a simple bar chart of open tickets by week from the metrics source.
+Label weeks 1-4. Title: Open tickets (last 4 weeks).
+Constraints: Use only the provided numbers. Do not forecast week 5.
+Add one sentence caption that does not overclaim a trend.
+```
+
+- Verify bars against the spreadsheet by eye before the pack leaves
+- Charts persuade—wrong charts persuade dangerously
 
 <!-- TODO IMAGE: Screenshot of Claude.ai chat showing a simple bar or line chart rendered in the reply -->
 ![Chart rendered in Claude.ai chat](images/ch02-chart-in-chat.png)
 
 ---
 
-# End to End: Watch the Skills Connect
+# Instructor Demo Script (End to End)
 
-- **Thesis**: One live chain teaches more than four isolated tips
-- Instructor runs notes → summary → report paragraph → chart in one thread
-- Students watch how each POCC brief stays narrow on purpose
-- Pause after each hop: what improved, what still needs a human check
+1. Upload the three sample sources in one Project chat
+2. Run Step 1; highlight the conflict-handling line
+3. Run Step 2; show a tighten pass
+4. Run Step 3; spot-check the bars together as a class
+5. Ask: "What would you still verify before sending to a manager?"
 
-> [!NOTE]
-> Lab muscle from Chapter 1 powers this demo. Weak prompts make the chain wobble; strong briefs keep each hop on rails.
+> [!IMPORTANT]
+> Narrate your POCC out loud. Students should hear the brief, not only see the magic output.
+
+---
+
+# When the Chain Breaks (And How to Recover)
+
+- **Muddy summary** → restart Step 1 with stricter "conflicts" language
+- **Report invents a metric** → "Remove any number not in the sources"
+- **Chart looks dramatic but wrong** → paste the raw table again and regenerate
+- **Thread is a mess** → new chat inside the same Project with the winning brief
 
 ---
 
@@ -152,51 +215,66 @@ Constraints: No new recommendations. Quote source labels for contested facts.
 
 ---
 
-# Where Does Our Data Go?
+# Where Does Our Data Go? (Teach Honestly)
 
-- **Thesis**: Answer with current product practices and your org policy—not hallway rumor
-- Consumer and commercial or team plans can differ on training and retention defaults
-- Connectors, Projects and uploaded files expand what is in scope for a chat
-- Instructors should state the plan tier used in class and point to official Anthropic docs
+- Answer with plan-tier facts and org policy—not folklore
+- Consumer, Pro and commercial or team plans can differ on retention and training defaults
+- Uploads, Projects and connectors expand what sits in scope for a chat
+- Point to official Anthropic docs live if possible; say "policies change"
 
 > [!IMPORTANT]
-> Policies change. Prefer official Claude documentation and your security team's guidance over memorized slides.
+> Instructors: state which plan the classroom seats use. Ambiguity here erodes trust for the rest of the day.
 
 ---
 
-# Plausible but Wrong
+# Plausible but Wrong: The Real Enemy
 
-- **Thesis**: The dangerous answer is fluent, specific and slightly false
-- Watch for invented dates, policy clauses, citations and "helpful" numbers
-- Cross-check anything that commits money, legal language, customer promises or compliance
-- Build a 60-second human-in-the-loop habit before the reply leaves your desk
+- Dangerous answers are fluent, specific and slightly false
+- Favorites: invented policy clauses, wrong dates, fake "according to the document" lines, helpful refunds
+- Anything that commits money, legal language, compliance or customer promises gets a source check
+- Tone is not evidence
+
+---
+
+# Drill: Spot the Landmine
+
+- Claude writes: "Per our policy, Acme is entitled to a 10% credit for the delay."
+- Notes B said: no discount. No policy file promised a credit.
+- Class call-out: which checklist item failed?
+- Fix: "Remove any offer not present in the sources. Quote the source for commitments."
 
 ---
 
 <!-- layout: 2-column -->
-# Human-in-the-Loop Checklist
+# 60-Second Send Checklist
 
 ### Check before you send
-- Does every hard fact appear in a source?
-- Are names, dates and figures exact?
-- Did Claude add promises you did not authorize?
+- Hard facts appear in a source
+- Names, dates and figures match
+- No unauthorized promises
 
 ### Stop and revise if
-- The tone is right but the citation is missing
-- Two sources disagree and Claude picked silently
-- You would not sign the email yourself
+- Citation is missing
+- Sources conflicted and Claude picked
+- You would not sign it yourself
 
 ---
 
-# What Claude.ai Does Not Do Alone
+# Ownership Stays Human
 
-- **Thesis**: Nothing happens without a prompt—and nothing ships without a human
-- Claude does not browse your laptop, send email or change systems by itself in this web workflow
-- Autonomy grows in Desktop, Cowork and Code—with clearer review steps in those courses
-- Your judgment stays the control plane for office work today
+- Nothing happens without a prompt in this web workflow
+- Claude does not send the email, update the CRM or approve the refund
+- "Claude decided" really means "someone accepted a draft"
+- Desktop, Cowork and Code add power later—with more review, not less responsibility
 
-> [!TIP]
-> When someone says "Claude decided," translate it to "Someone accepted a Claude draft." Ownership stays human.
+---
+
+# Take-Home Lab Preview
+
+- Fact-Checking and Grounding AI Output extends today's drill
+- Practice planting and finding errors in a safe sample pack
+- Build your own checklist for your role (ops, finance, HR, client-facing)
+- Bring one war story to Course 2 if your org allows sharing patterns (not data)
 
 ---
 
@@ -231,10 +309,10 @@ Constraints: No new recommendations. Quote source labels for contested facts.
 
 **Correct: B.** Keep the files and standing instructions in a Project and start each digest chat there
 
-- Projects reduce re-upload friction and version confusion
-- Standing instructions keep POCC constraints consistent week to week
-- You still refresh files when the source of truth changes
-- Org policy still governs which PDFs may be uploaded
+- Projects cut re-upload and re-brief friction
+- Standing instructions stabilize format and constraints
+- Refresh files when the source of truth changes
+- Org policy still governs what may be uploaded
 
 ---
 
@@ -256,9 +334,9 @@ Constraints: No new recommendations. Quote source labels for contested facts.
 **Correct: B.** A customer email that states a new delivery date and partial refund
 
 - Commitments, money and dates bind the business
-- Fluent tone does not prove the facts were authorized
-- Low-stakes wording tweaks still deserve a skim—but commitments come first
-- When unsure, require a source quote before send
+- Fluency is not verification
+- Low-stakes wording still deserves a skim—commitments come first
+- Require a source quote when unsure
 
 ---
 
@@ -266,32 +344,33 @@ Constraints: No new recommendations. Quote source labels for contested facts.
 # Quiz 3 of 3 — Discussion
 
 ### Prompt
-Claude summarizes two meeting notes and a spreadsheet export into a manager report with a chart.
+Claude turns Jordan's three sources into a manager report with a chart that "proves tickets are trending down."
 
 ### Discuss
-- Where could "plausible but wrong" hide in that chain?
+- Where could plausible-but-wrong hide?
 - What would you verify in five minutes?
-- When would you refuse to upload a file at all?
+- When would you refuse to upload a source?
 
 ---
 
 <!-- layout: 2-column -->
 # Quiz 3 — Discussion Points
 
-**Claude summarizes two meeting notes and a spreadsheet export into a manager report with a chart.**
+**Claude turns Jordan's three sources into a manager report with a chart that "proves tickets are trending down."**
 
 ### Strong Answers Mention
-- Conflicting notes, misread totals, chart scale that overclaims
-- Spot-check figures against the spreadsheet; confirm owners and dates
-- Refuse uploads that violate policy or contain raw personal data
+- Week-4 uptick, conflicted dates, overclaimed trend language
+- Spot-check figures; confirm owners; tone down causal claims
+- Refuse banned document classes and raw personal data
 
 ### Watch For
-- "The chart looks professional, so the numbers are fine"
-- Skipping conflict flags between sources
-- Uploading everything because the Project feels private enough
+- "The chart looks professional, so the story is true"
+- Silent resolution of source conflicts
+- Uploading everything because a Project "feels private"
 
 ---
 
+<!-- layout: stacked -->
 # Questions and Answers
 
-Questions?
+![Questions and Answers](images/qa.png)

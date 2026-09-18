@@ -26,109 +26,120 @@ Claude.ai Essentials
 
 ---
 
-# Today's Starting Point
+# Meet Jordan (Our Running Example)
 
-- **Thesis**: Claude.ai is a daily business tool—not a novelty chat toy
-- You leave with three reusable prompts and one clear MasterClass path
-- No coding today; outcomes matter more than model internals
-- Bookmark one real work task as we go; you will use it in the lab
+- Jordan is an operations coordinator at a mid-size company
+- Typical week: vendor delay emails, meeting notes, a Friday status pack for their manager
+- Jordan is smart and busy—not a programmer, not an AI hobbyist
+- We will solve Jordan's jobs today; map them to your real work in the lab
 
 > [!NOTE]
-> This is Course 1 of 4 in the Claude MasterClass. Desktop, Cowork and Code come later for heavier work.
+> Instructors: keep Jordan on the whiteboard or a sticky. Every demo should answer "what would Jordan do?"
 
 ---
 
-# What Generative AI Is Doing
+# What "Good" Looks Like by 12:00
 
-- **Thesis**: The model predicts useful next text from patterns in language—not a search engine and not a database
-- You supply intent; Claude supplies draft language, structure and options
-- Quality rises when your request is specific about role, goal, context and limits
-- Weak prompts force Claude to guess—and guessing looks confident even when wrong
+- Three prompts Jordan (and you) would actually reuse: email, summary, meeting recap
+- Enough interface fluency to find chats, uploads and Projects without hunting
+- A plain-language feel for why vague asks waste time—and how to stop
+- One personal task bookmarked for the afternoon deliverable chain
+
+---
+
+# Claude Is a Drafter, Not a Truth Machine
+
+- Claude predicts useful next text from patterns in language
+- It is not a company database and not a search engine with guaranteed citations
+- Your job is to brief it like a capable colleague and verify anything that binds the business
+- Fluent wrong answers are the hazard—not blank stares
 
 ![How generative AI responds](images/ch01-genai-loop.svg)
 
 ---
 
-# Tokens: The Unit Claude Counts
+# The Office Analogy That Sticks
 
-- **Thesis**: Claude reads and writes in tokens—small chunks of text—not whole documents at once
-- A token is roughly a short word piece; longer prompts and replies use more tokens
-- Token volume drives both response cost and how much fits in one conversation
-- Specific prompts usually use fewer tokens than long, wandering chats that retry the same ask
+- Imagine a fast junior analyst who has read a lot—but was not in your meeting
+- If you say "handle the vendor thing," they invent a polished story
+- If you say who you are, what happened, what you can offer, and what not to promise—they draft something editable
+- Claude behaves the same way; specificity is the brief, not a "prompt trick"
+
+---
+
+# Tokens in Plain English
+
+- Claude reads and writes in tokens—small chunks of text (often pieces of words)
+- Longer prompts, longer replies, and uploaded files all consume tokens
+- Providers meter usage by token volume; wandering retries cost money and calendar time
+- You do not need to count tokens—you need to stop burning them on clarification loops
 
 ---
 
 <!-- layout: 2-column -->
-# Tokens: What to Remember
+# A Cost You Can Feel
 
-### Think in chunks
-- Words split into pieces
-- Numbers and punctuation count too
-- Uploaded files consume context
+### Vague path (15 minutes)
+- "Write something about the delay"
+- Three follow-ups to fix tone and facts
+- Still not sendable
 
-### Why you care
-- Clear asks mean fewer retries
-- Fewer retries mean less time and cost
-- Context fills up; stay focused
+### Clear path (4 minutes)
+- One POCC brief
+- One light edit
+- Ready for human send
+
+<!-- below-columns -->
+
+> [!TIP]
+> Instructors: run a stopwatch on the live vague-versus-structured demo. Time is more persuasive than theory.
 
 ---
 
-# Context Window: The Working Desk
+# Context Window = The Desk in Front of Claude
 
-- **Thesis**: The context window is Claude's temporary desk for this chat—everything it can "see" right now
-- Includes your messages, Claude's replies, and text extracted from uploaded files
-- When the desk fills up, earlier details can drop out of reach
-- Projects help by keeping related files and instructions in one workspace instead of pasting everything again
+- Everything in the current chat sits on Claude's temporary desk: your messages, replies, file text
+- When the desk fills, older details can fall out of reach—quality gets weird or forgetful
+- One endless mega-chat about five unrelated jobs is how desks overflow
+- Projects and fresh chats are how professionals keep the desk clean
 
 ![Context window as a desk](images/ch01-context-window.svg)
 
 ---
 
-# Meaning as Numbers (Embeddings, Simply)
-
-- **Thesis**: Related ideas sit near each other in a numeric map of meaning
-- That is why Claude can connect "Q3 pipeline" with "sales forecast" even if wording differs
-- You do not manage vectors yourself—specificity still helps Claude land near the right idea
-- Vague asks scatter Claude across many nearby meanings; sharp asks narrow the neighborhood
-
-> [!TIP]
-> When results feel "off topic," add concrete nouns: system names, dates, audience and the exact deliverable format.
-
----
-
-# Specificity Saves Time and Cost
-
-- **Thesis**: Trial-and-error prompting is the expensive path
-- Broad prompt → broad answer → many follow-ups → more tokens and more calendar time
-- Structured prompt → usable first draft → light edits → done sooner
-- Treat prompting like briefing a capable colleague: role, goal, facts and constraints up front
-
----
-
 <!-- layout: 2-column -->
-# Expensive versus Efficient
+# When to Start a New Chat
 
-### Expensive pattern
-- "Write something about the launch"
-- Vague audience and tone
-- Five clarifying chats
+### Keep going in this chat
+- Same deliverable, next revision
+- Same source files, deeper questions
+- Same audience and constraints
 
-### Efficient pattern
-- Role, audience, length, tone
-- Facts Claude must use
-- What to exclude
+### Start a new chat
+- New goal or new audience
+- Unrelated topic (email vs forecast)
+- The thread feels muddy or contradictory
 
 ---
 
-# Where Claude Fits Today
+# Why Meaning "Nearness" Matters (Lightly)
 
-- **Thesis**: Claude is one strong option in a crowded generative AI landscape
-- Strengths for office work: careful writing, long-document reasoning and structured follow-through
-- Copilot and other tools may already sit in your Microsoft stack—overlap is normal
-- Choose by task fit and policy, not by brand loyalty alone
+- Claude connects related ideas even when wording differs ("ship slip" and "delivery delay")
+- That helps—and it also means vague asks activate too many nearby meanings
+- Fix "off topic" replies with concrete nouns: system names, dates, audience, format
+- Skip the math; keep the habit: name the thing
 
 > [!IMPORTANT]
-> Your organization may restrict which AI tools and data classes are allowed. Follow policy first; techniques second.
+> If Claude drifts, do not argue with it for five turns. Restate the objective and constraints in one clean message.
+
+---
+
+# Where Claude Fits Beside Copilot and Friends
+
+- Many teams already have Microsoft Copilot inside Word, Outlook or Teams
+- Copilot wins for light help inside those apps; Claude.ai wins for careful multi-file briefs and reusable Projects
+- Policy decides what is allowed—technique cannot override a ban
+- Course 2 (Desktop) is how Claude moves beside those same apps without living only in a browser tab
 
 ---
 
@@ -141,67 +152,86 @@ Claude.ai Essentials
 
 ---
 
-# The Claude.ai Workspace
+# Tour: The Four Places You Live
 
-- **Thesis**: Everything today happens in the Claude.ai web interface—no install required
-- Core pieces: new chat, chat history, file uploads and account or privacy settings
-- Treat chat history as a work log you can reopen, not a disposable scratch pad
-- Privacy toggles and org settings matter—know what your seat allows before uploading files
+- **New chat**: blank brief for a new job
+- **History**: reopen yesterday's work instead of starting over
+- **Uploads**: give Claude the source text for grounded answers
+- **Settings / privacy**: know what your seat and org allow before you paste sensitive text
 
 <!-- TODO IMAGE: Screenshot of Claude.ai home chat workspace with new chat and history visible -->
 ![Claude.ai workspace overview](images/ch01-claude-ai-workspace.png)
 
 ---
 
-# Chat, History and Uploads
+# Instructor Demo: 90-Second Orientation
 
-- **Thesis**: A good Claude habit is one chat per task thread—not one endless mega-chat
-- Start a new chat when the goal changes; reopen history when you continue the same task
-- Upload files when Claude needs the source text; quote only snippets when the file cannot leave your desk
-- Name chats clearly ("Q3 benefits FAQ draft") so next week's you can find them
+- Create a chat named `Jordan - vendor delay email`
+- Paste a one-line ask, send, then show how to rename and find it in history
+- Upload a tiny sample PDF (or paste a short policy paragraph) and ask one question that requires it
+- Point at privacy/account settings without doom-scrolling—just "know this exists"
 
-> [!TIP]
-> After a strong result, copy the winning prompt into a notes doc. That becomes your personal template library.
+> [!NOTE]
+> Use non-sensitive sample files prepared before class. Never demo with a real customer contract.
 
 ---
 
-# Projects: A Workspace with Memory
+# Chat Hygiene That Saves Friday-You
 
-- **Thesis**: A Project is a self-contained Claude workspace with its own knowledge for a team or recurring job
-- Put standing instructions and reference files in the Project once
-- New chats inside the Project reuse that context instead of re-uploading every session
-- Use Projects for repeating work: policy Q and A, monthly report pack, onboarding FAQ
+- Name chats by outcome: `Fri status pack`, not `Chat 12`
+- One primary job per chat; fork a new chat when the goal changes
+- After a win, copy the prompt into a personal template note
+- Archive or ignore dead ends—do not keep "teaching" a confused thread
+
+---
+
+# Projects: Recurring Work Gets a Home
+
+- A Project holds standing instructions plus reference files for a repeating job
+- Jordan's candidates: vendor comms standards, weekly status sources, onboarding FAQ
+- New chats inside the Project reuse that context—no Monday re-upload ritual
+- Update files when the source of truth changes; stale Projects create confident wrong digests
 
 ![Projects keep context together](images/ch01-projects-concept.svg)
 
 ---
 
 <!-- layout: 2-column -->
-# Claude.ai versus Microsoft Copilot
+# Chat versus Project: Decision Rule
 
-### Claude.ai
-- Strong for long documents and careful drafts
-- Projects gather files for a recurring task
-- Web chat first; Desktop and Cowork extend later
+### Use a regular chat when
+- One-off ask
+- No standing files
+- Exploring wording only
 
-### Microsoft Copilot
-- Lives inside Microsoft 365 apps many teams already use
-- Convenient when Word, Outlook and Teams are the workbench
-- Feature set and data path follow your Microsoft tenant
-
-<!-- below-columns -->
-
-> [!NOTE]
-> Fair answer to "don't we already have this?": often yes for light in-app help. Claude.ai shines when the job is a multi-file brief, a careful rewrite, or a Project you return to weekly.
+### Use a Project when
+- Weekly or monthly repeat
+- Same reference pack
+- Same tone and constraints
 
 ---
 
-# The Claude Product Family
+<!-- layout: 2-column -->
+# "Don't We Already Have Copilot?"
 
-- **Thesis**: Claude.ai is the front door; heavier tools wait in later MasterClass sessions
-- **Claude Desktop**: reach Claude from other apps and work with local files more safely at scale
-- **Claude Cowork**: hand off multi-step tasks and review a plan before the agent acts
-- **Claude Code**: plan-approve-execute coding changes tied to real cloud accounts
+### Fair answer
+- Yes for light in-app help
+- Stay there when the work is already open in Microsoft 365
+- Use your company's approved default first
+
+### When Claude.ai earns the seat
+- Multi-file briefing and synthesis
+- Careful rewrites with hard constraints
+- A Project you return to every week
+
+---
+
+# MasterClass Map (So Today Has a Horizon)
+
+- **Today — Claude.ai**: judgment, prompts, files, review
+- **Desktop**: Quick Entry and local extensions beside your apps
+- **Cowork**: multi-step handoff with plan-then-approve
+- **Code**: engineering plan-approve-execute on real cloud work
 
 ![Claude MasterClass path](images/ch01-masterclass-path.svg)
 
@@ -216,64 +246,105 @@ Claude.ai Essentials
 
 ---
 
-# Vague versus Structured: Same Task
+# Live Contrast: Same Job, Two Briefs
 
-- **Thesis**: Structure beats clever wording
-- Vague: "Help with the customer email"
-- Structured: role, goal, customer context, tone, length and what not to promise
-- Live demo: run both on the same scenario and compare usefulness of the first reply
+- Job: tell Acme Ops that order 4821 ships one week late
+- **Vague**: "Help with the customer email about the delay"
+- **Structured**: role, goal, facts, tone, length, must-nots
+- Instructors: send both. Leave both answers on screen. Ask the room which they would sign.
 
 > [!IMPORTANT]
-> Instructors: use one office scenario end to end (email, summary, or meeting recap) so students see the gap immediately.
+> Do not skip the side-by-side. This is the chapter's "aha" moment.
 
 ---
 
-# The POCC Framework
+# POCC: Brief Claude Like a Colleague
 
-- **Thesis**: Persona, Objective, Context, Constraints is a repeatable briefing checklist
-- **Persona**: who Claude should act as (tone and expertise)
-- **Objective**: the exact deliverable and success look
-- **Context**: facts, audience, source material, background
-- **Constraints**: length, format, must-include, must-avoid, due date
+- **Persona**: who is speaking (role + tone)
+- **Objective**: the deliverable and what "done" looks like
+- **Context**: facts, audience, sources, background
+- **Constraints**: length, format, must-include, must-avoid
 
 ![POCC prompting framework](images/ch01-pocc-framework.svg)
 
 ---
 
-# POCC in Practice: Before
+# What Each Letter Prevents
 
-- **Vague office ask**: "Can you fix this email to the client about the delay?"
-- Missing: who you are, what the delay is, what you can offer, tone, length
-- Claude invents a polished message that may promise the wrong date or credit
-- That "helpfulness" is the risk—not rudeness
+- Weak **Persona** → generic corporate mush or the wrong authority level
+- Weak **Objective** → essay when you needed five bullets
+- Weak **Context** → invented dates, names and "helpful" details
+- Weak **Constraints** → discounts offered, blame assigned, secrets repeated
 
 ---
 
-# POCC in Practice: After
-
-- **Persona**: Customer success lead; calm, accountable, no legalese
-- **Objective**: 150-word email explaining a one-week ship slip and proposing a call
-- **Context**: Order 4821; part shortage; new date Friday; customer is Acme Ops
-- **Constraints**: Do not offer discounts; do not blame vendors by name; end with two time options
+# Worked Example: Vendor Delay Email
 
 ```text
 Persona: You are a customer success lead. Tone: calm, accountable, plain language.
 Objective: Draft a 150-word email about a one-week ship delay and propose a call.
-Context: Order 4821; Acme Ops; part shortage; new ship date this Friday.
-Constraints: No discounts. Do not name vendors. End with Tue 10:00 or Wed 14:00 options.
+Context: Order 4821; customer Acme Ops; cause is a part shortage; new ship date this Friday.
+Constraints: No discounts. Do not name vendors. Do not apologize more than once.
+End with Tue 10:00 or Wed 14:00 call options.
+```
+
+- First reply should be editable—not perfect
+- Human checks: date, order ID, offers, tone
+- Save the shell as a template; swap Context next time
+
+---
+
+# Worked Example: Document Summary
+
+```text
+Persona: You are an operations analyst preparing a brief for a busy manager.
+Objective: Produce a one-page bullet brief from the uploaded notes.
+Include: decisions, owners, dates, open questions, conflicts between sources.
+Constraints: No new recommendations. Label contested facts with the source name.
+Audience: Jordan's manager, five-minute read.
 ```
 
 ---
 
-# Save It as a Personal Template
+# Worked Example: Meeting Recap
 
-- **Thesis**: A winning prompt is an asset—treat it like a checklist, not a one-off
-- Strip the one-time facts; keep Persona, Objective shape and Constraints
-- Store templates by task: client delay email, meeting recap, exec summary
-- Next time, fill Context slots only—minutes instead of a blank box
+```text
+Persona: You are the meeting organizer writing a recap people will actually read.
+Objective: Turn rough notes into a recap with decisions, action items and owners.
+Context: [paste notes]. Meeting: Weekly ops sync. Date: [today].
+Constraints: Action items must have an owner and a due date—or mark "owner TBD".
+No fluff. Max 200 words before the action table.
+```
+
+---
+
+# Steal These Iteration Moves
+
+- **Tighten**: "Cut 30%. Keep every date, name and number."
+- **Audience shift**: "Same facts; rewrite for an executive skim."
+- **Risk pass**: "List anything that could be wrong or unverified."
+- **Format pass**: "Convert the action items to a markdown table."
 
 > [!TIP]
-> Name templates with the outcome: "Meeting-recap-to-action-list" beats "Prompt 3."
+> Iterate with a single instruction per turn. "Make it better" teaches Claude nothing.
+
+---
+
+# Anti-Patterns That Waste the Morning
+
+- One mega-prompt that asks for email + summary + chart + strategy
+- Pasting confidential text "just to see," then forwarding the draft
+- Arguing with a bad thread instead of starting clean with a better brief
+- Shipping the first fluent answer because it "sounds right"
+
+---
+
+# Lab Briefing: What You Will Build
+
+- Three scenarios: client email, document summary, meeting recap
+- For each: write a vague first ask, then a POCC rewrite, compare outputs
+- Checkpoint: three saved prompts you would reuse within seven days
+- Use Jordan's examples if your real work data cannot enter the classroom
 
 ---
 
@@ -308,34 +379,34 @@ Constraints: No discounts. Do not name vendors. End with Tue 10:00 or Wed 14:00 
 
 **Correct: B.** Vague prompts force more follow-up turns, so total tokens and calendar time rise
 
-- Tokens measure text in and out across the whole thread
-- Wandering chats burn tokens on clarification instead of the deliverable
+- Tokens meter the whole thread, not only the first message
+- Clarification loops burn time and budget
 - A clear first brief often yields an editable draft on turn one
-- Efficiency is a business habit, not only a technical detail
+- Efficiency is an office habit, not only a billing curiosity
 
 ---
 
 # Quiz 2 of 3
 
-**What is the main job of a Claude.ai Project for recurring office work?**
+**Jordan runs the same Friday status pack every week. What should they set up?**
 
-- A. It installs Claude on your laptop so chats work offline
-- B. It permanently publishes your files to the public internet for collaboration
-- C. It keeps standing instructions and reference files in one workspace you reopen
-- D. It replaces your company's document management system and permissions model
+- A. A new blank chat every Friday with no saved instructions
+- B. A Project with standing instructions and the recurring reference files
+- C. One endless chat that also holds vendor disputes and HR questions
+- D. Copilot only, because Projects cannot hold documents
 
 ---
 
 # Quiz 2 — Answer
 
-**What is the main job of a Claude.ai Project for recurring office work?**
+**Jordan runs the same Friday status pack every week. What should they set up?**
 
-**Correct: C.** It keeps standing instructions and reference files in one workspace you reopen
+**Correct: B.** A Project with standing instructions and the recurring reference files
 
-- Projects reduce re-upload and re-brief friction for repeating tasks
-- They are still subject to your account and organization policies
-- They do not remove the need for human review of outputs
-- Desktop and Cowork extend local and multi-step work in later courses
+- Recurring work is the Project sweet spot
+- Standing constraints keep tone and format stable
+- Refresh files when sources change
+- Still review outputs before the pack goes to a manager
 
 ---
 
@@ -343,32 +414,33 @@ Constraints: No discounts. Do not name vendors. End with Tue 10:00 or Wed 14:00 
 # Quiz 3 of 3 — Discussion
 
 ### Prompt
-A colleague pastes "rewrite this nicer" with a long email and no other guidance.
+A colleague pastes "rewrite this nicer" under a long client email and hits send on Claude's first draft.
 
 ### Discuss
-- Which POCC pieces are missing?
-- What risks show up in the first draft?
-- What minimum brief would you require before sending?
+- Which POCC pieces were missing?
+- What business risk is most likely?
+- What minimum brief would you require?
 
 ---
 
 <!-- layout: 2-column -->
 # Quiz 3 — Discussion Points
 
-**A colleague pastes "rewrite this nicer" with a long email and no other guidance.**
+**A colleague pastes "rewrite this nicer" under a long client email and hits send on Claude's first draft.**
 
 ### Strong Answers Mention
-- Missing Persona, Objective detail and Constraints
-- Risk of wrong promises, tone or confidential asides kept in
-- Require audience, goal, must-keep facts and must-avoid lines
+- Missing Persona, Objective detail, Context facts and Constraints
+- Risk of wrong promises, tone, or leftover confidential asides
+- Require audience, must-keep facts, must-avoid lines, and a human read
 
 ### Watch For
 - "Claude will figure it out"
-- Editing tone only while leaving factual errors untouched
-- Sending without a human read because the draft "sounds right"
+- Tone-only edits that leave factual landmines
+- Shipping because the draft sounded professional
 
 ---
 
+<!-- layout: stacked -->
 # Questions and Answers
 
-Questions?
+![Questions and Answers](images/qa.png)

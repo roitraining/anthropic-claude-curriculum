@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+  <rect width="1200" height="675" fill="#f7f4ef"/>
+  <text x="60" y="70" font-family="Georgia, serif" font-size="34" fill="#1a1a1a">Where Claude Desktop sits</text>
+  <rect x="60" y="140" width="250" height="360" rx="18" fill="#8a6a3c"/>
+  <text x="185" y="280" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#ffffff">Claude.ai</text>
+  <text x="185" y="320" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#f3e6d0">Browser chat</text>
+  <text x="185" y="350" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#f3e6d0">Projects · uploads</text>
+  <rect x="340" y="140" width="250" height="360" rx="18" fill="#c45c26"/>
+  <text x="465" y="250" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#ffffff">Desktop</text>
+  <text x="465" y="295" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#ffe8da">Quick Entry</text>
+  <text x="465" y="325" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#ffe8da">Extensions · sync</text>
+  <text x="465" y="380" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#ffffff">You are here</text>
+  <rect x="620" y="140" width="250" height="360" rx="18" fill="#2f5d50"/>
+  <text x="745" y="280" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#ffffff">Cowork</text>
+  <text x="745" y="320" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#d7ebe3">Plan · approve</text>
+  <text x="745" y="350" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#d7ebe3">Execute</text>
+  <rect x="900" y="140" width="250" height="360" rx="18" fill="#1f3d36"/>
+  <text x="1025" y="280" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#ffffff">Code</text>
+  <text x="1025" y="320" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#d7ebe3">Engineering</text>
+  <text x="1025" y="350" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#d7ebe3">Cloud changes</text>
+</svg>

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+  <rect width="1200" height="675" fill="#f7f4ef"/>
+  <text x="60" y="70" font-family="Georgia, serif" font-size="34" fill="#1a1a1a">Two ways Claude reaches your files</text>
+  <rect x="80" y="150" width="480" height="380" rx="20" fill="#ffffff" stroke="#d9d0c3" stroke-width="2"/>
+  <text x="110" y="210" font-family="Helvetica, Arial, sans-serif" font-size="24" fill="#1a1a1a">Web upload</text>
+  <text x="110" y="270" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#555555">1. You choose a file</text>
+  <text x="110" y="315" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#555555">2. Attach it to the chat</text>
+  <text x="110" y="360" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#555555">3. Ask questions against it</text>
+  <text x="110" y="420" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#555555">Scope is usually that attachment</text>
+  <rect x="640" y="150" width="480" height="380" rx="20" fill="#2f5d50"/>
+  <text x="670" y="210" font-family="Helvetica, Arial, sans-serif" font-size="24" fill="#ffffff">Desktop Extension</text>
+  <text x="670" y="270" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#d7ebe3">1. Review permissions</text>
+  <text x="670" y="315" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#d7ebe3">2. Install with narrow scope</text>
+  <text x="670" y="360" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#d7ebe3">3. Ask against local sources</text>
+  <text x="670" y="420" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#d7ebe3">Scope follows the connector</text>
+</svg>

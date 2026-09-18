@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+  <rect width="1200" height="675" fill="#f7f4ef"/>
+  <text x="60" y="70" font-family="Georgia, serif" font-size="34" fill="#1a1a1a">Claude Code loop</text>
+  <rect x="60" y="200" width="220" height="180" rx="16" fill="#2f5d50"/>
+  <text x="170" y="290" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="24" fill="#ffffff">Read</text>
+  <polygon points="300,290 350,265 350,315" fill="#8a6a3c"/>
+  <rect x="370" y="200" width="220" height="180" rx="16" fill="#1f3d36"/>
+  <text x="480" y="290" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="24" fill="#ffffff">Plan</text>
+  <polygon points="610,290 660,265 660,315" fill="#8a6a3c"/>
+  <rect x="680" y="200" width="220" height="180" rx="16" fill="#c45c26"/>
+  <text x="790" y="290" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="24" fill="#ffffff">Approve</text>
+  <polygon points="920,290 970,265 970,315" fill="#8a6a3c"/>
+  <rect x="990" y="200" width="160" height="180" rx="16" fill="#6b8f71"/>
+  <text x="1070" y="290" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#ffffff">Change</text>
+  <text x="60" y="480" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#444444">Then run tests. The diff is the contract.</text>
+</svg>

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+  <rect width="1200" height="675" fill="#f7f4ef"/>
+  <text x="60" y="70" font-family="Georgia, serif" font-size="36" fill="#1a1a1a">Projects keep related work together</text>
+  <rect x="80" y="140" width="480" height="420" rx="20" fill="#ffffff" stroke="#d9d0c3" stroke-width="2"/>
+  <text x="110" y="190" font-family="Helvetica, Arial, sans-serif" font-size="24" fill="#1a1a1a">Without a Project</text>
+  <text x="110" y="250" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#555555">" Re-upload files each session</text>
+  <text x="110" y="295" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#555555">" Re-paste the same brief</text>
+  <text x="110" y="340" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#555555">" Easy to use the wrong version</text>
+  <text x="110" y="385" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#555555">" History scatters across chats</text>
+  <rect x="640" y="140" width="480" height="420" rx="20" fill="#2f5d50"/>
+  <text x="670" y="190" font-family="Helvetica, Arial, sans-serif" font-size="24" fill="#ffffff">With a Project</text>
+  <text x="670" y="250" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#d7ebe3">" Standing instructions live once</text>
+  <text x="670" y="295" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#d7ebe3">" Reference files stay attached</text>
+  <text x="670" y="340" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#d7ebe3">" New chats reuse the workspace</text>
+  <text x="670" y="385" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#d7ebe3">" Built for recurring office tasks</text>
+</svg>

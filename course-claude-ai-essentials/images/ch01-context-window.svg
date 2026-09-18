@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+  <rect width="1200" height="675" fill="#f7f4ef"/>
+  <text x="60" y="70" font-family="Georgia, serif" font-size="36" fill="#1a1a1a">Context window = Claude's temporary desk</text>
+  <rect x="180" y="130" width="840" height="420" rx="24" fill="#ffffff" stroke="#2f5d50" stroke-width="4"/>
+  <rect x="220" y="180" width="220" height="140" rx="12" fill="#2f5d50"/>
+  <text x="330" y="245" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#ffffff">Your messages</text>
+  <rect x="470" y="180" width="220" height="140" rx="12" fill="#1f3d36"/>
+  <text x="580" y="245" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#ffffff">Claude replies</text>
+  <rect x="720" y="180" width="250" height="140" rx="12" fill="#8a6a3c"/>
+  <text x="845" y="245" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#ffffff">Uploaded file text</text>
+  <rect x="220" y="360" width="750" height="120" rx="12" fill="#f0e7da"/>
+  <text x="595" y="415" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#1a1a1a">When the desk fills, earlier details can fall off</text>
+  <text x="595" y="450" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#555555">Projects keep recurring files and instructions nearby</text>
+</svg>

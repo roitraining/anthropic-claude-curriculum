@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+  <rect width="1200" height="675" fill="#f7f4ef"/>
+  <text x="60" y="70" font-family="Georgia, serif" font-size="36" fill="#1a1a1a">From messy notes to a polished deliverable</text>
+  <rect x="70" y="200" width="220" height="160" rx="16" fill="#8a6a3c"/>
+  <text x="180" y="275" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#ffffff">Scattered</text>
+  <text x="180" y="310" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#ffffff">notes</text>
+  <polygon points="310,280 360,260 360,300" fill="#1a1a1a"/>
+  <rect x="380" y="200" width="220" height="160" rx="16" fill="#2f5d50"/>
+  <text x="490" y="275" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#ffffff">Consolidated</text>
+  <text x="490" y="310" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#ffffff">summary</text>
+  <polygon points="620,280 670,260 670,300" fill="#1a1a1a"/>
+  <rect x="690" y="200" width="220" height="160" rx="16" fill="#1f3d36"/>
+  <text x="800" y="275" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#ffffff">Short</text>
+  <text x="800" y="310" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#ffffff">report</text>
+  <polygon points="930,280 980,260 980,300" fill="#1a1a1a"/>
+  <rect x="1000" y="200" width="160" height="160" rx="16" fill="#c45c26"/>
+  <text x="1080" y="290" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#ffffff">Chart</text>
+  <text x="60" y="480" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#444444">Keep each hop narrow. Iterate. Verify facts before the pack leaves your desk.</text>
+</svg>

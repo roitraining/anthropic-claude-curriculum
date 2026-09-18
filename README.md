@@ -7,7 +7,11 @@ It does **not** include the slide or lab viewer apps—only what instructors nee
 
 | Path | Purpose |
 | :--- | :--- |
-| `course/` | Slide Markdown + shared `images/` (stock graphics + sample) |
+| `course-01-claude-ai-essentials/` | Course 1 slides + images |
+| `course-02-claude-desktop-essentials/` | Course 2 slides + images |
+| `course-03-claude-cowork-essentials/` | Course 3 slides + images |
+| `course-04-claude-code-essentials/` | Course 4 slides + images |
+| `course/` | Sample/template slides + stock graphics |
 | `labs/` | One folder per lab (`lab.md` + `images/`) |
 | `.agents/skills/course-generator/` | Rules and layout templates for slide courses |
 | `.agents/skills/lab-generator/` | Rules and templates for hands-on labs |

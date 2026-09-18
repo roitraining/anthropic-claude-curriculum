@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
   <rect width="1200" height="675" fill="#f7f4ef"/>
   <text x="60" y="70" font-family="Georgia, serif" font-size="34" fill="#1a1a1a">Org-cloud trust path</text>
@@ -7,10 +8,10 @@
   <polygon points="390,320 440,295 440,345" fill="#8a6a3c"/>
   <rect x="460" y="180" width="280" height="280" rx="18" fill="#c45c26"/>
   <text x="600" y="290" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#ffffff">Org cloud</text>
-  <text x="600" y="330" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#ffe8da">Bedrock · Vertex · Foundry</text>
+  <text x="600" y="330" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#ffe8da">Bedrock  |  Vertex  |  Foundry</text>
   <polygon points="770,320 820,295 820,345" fill="#8a6a3c"/>
   <rect x="840" y="180" width="280" height="280" rx="18" fill="#1f3d36"/>
   <text x="980" y="290" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#ffffff">You still review</text>
-  <text x="980" y="330" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#d7ebe3">Diffs · tests · CI</text>
+  <text x="980" y="330" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#d7ebe3">Diffs  |  tests  |  CI</text>
   <text x="60" y="540" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#444444">IAM and audit follow the cloud account. Judgment stays human.</text>
 </svg>

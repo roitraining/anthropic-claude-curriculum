@@ -1,7 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
   <rect width="1200" height="675" fill="#f7f4ef"/>
   <text x="60" y="70" font-family="Georgia, serif" font-size="34" fill="#1a1a1a">Tokens are chunks Claude counts</text>
-  <text x="60" y="120" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#555555">A sentence becomes pieces — volume drives cost and context use</text>
+  <text x="60" y="120" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#555555">A sentence becomes pieces - volume drives cost and context use</text>
   <rect x="80" y="180" width="140" height="90" rx="12" fill="#2f5d50"/><text x="150" y="235" text-anchor="middle" fill="#fff" font-size="22" font-family="Helvetica, Arial, sans-serif">Ship</text>
   <rect x="240" y="180" width="140" height="90" rx="12" fill="#1f3d36"/><text x="310" y="235" text-anchor="middle" fill="#fff" font-size="22" font-family="Helvetica, Arial, sans-serif">ment</text>
   <rect x="400" y="180" width="140" height="90" rx="12" fill="#8a6a3c"/><text x="470" y="235" text-anchor="middle" fill="#fff" font-size="22" font-family="Helvetica, Arial, sans-serif">delay</text>

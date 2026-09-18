@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
   <rect width="1200" height="675" fill="#f7f4ef"/>
   <text x="60" y="70" font-family="Georgia, serif" font-size="34" fill="#1a1a1a">Plan, approve, execute</text>
@@ -7,7 +8,7 @@
   <polygon points="420,270 470,245 470,295" fill="#8a6a3c"/>
   <rect x="490" y="160" width="320" height="220" rx="18" fill="#c45c26"/>
   <text x="650" y="250" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="28" fill="#ffffff">Approve</text>
-  <text x="650" y="295" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#ffe8da">Manual · Always-allow · Auto</text>
+  <text x="650" y="295" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#ffe8da">Manual  |  Always-allow  |  Auto</text>
   <polygon points="840,270 890,245 890,295" fill="#8a6a3c"/>
   <rect x="910" y="160" width="220" height="220" rx="18" fill="#1f3d36"/>
   <text x="1020" y="260" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="28" fill="#ffffff">Execute</text>

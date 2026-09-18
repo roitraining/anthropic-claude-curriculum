@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
   <rect width="1200" height="675" fill="#f7f4ef"/>
   <text x="60" y="70" font-family="Georgia, serif" font-size="34" fill="#1a1a1a">Cowork sandbox lifecycle</text>
@@ -11,7 +12,7 @@
   <polygon points="770,290 820,265 820,315" fill="#8a6a3c"/>
   <rect x="840" y="180" width="280" height="220" rx="16" fill="#1f3d36"/>
   <text x="980" y="280" text-anchor="middle" fill="#fff" font-size="24" font-family="Helvetica, Arial, sans-serif">3. Destroy</text>
-  <text x="980" y="325" text-anchor="middle" fill="#d7ebe3" font-size="16" font-family="Helvetica, Arial, sans-serif">Session ends → teardown</text>
+  <text x="980" y="325" text-anchor="middle" fill="#d7ebe3" font-size="16" font-family="Helvetica, Arial, sans-serif">Session ends -> teardown</text>
   <text x="60" y="500" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#444444">Persist outputs you need into approved systems before you close.</text>
   <text x="60" y="545" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#666666">No local VM required for the default remote execution model.</text>
 </svg>

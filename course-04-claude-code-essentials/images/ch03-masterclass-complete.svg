@@ -1,6 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
   <rect width="1200" height="675" fill="#f7f4ef"/>
-  <text x="60" y="70" font-family="Georgia, serif" font-size="34" fill="#1a1a1a">Claude MasterClass  complete</text>
+  <text x="60" y="70" font-family="Georgia, serif" font-size="34" fill="#1a1a1a">Claude MasterClass - complete</text>
   <rect x="60" y="160" width="240" height="240" rx="18" fill="#8a6a3c"/>
   <text x="180" y="270" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#ffffff">Ask</text>
   <rect x="340" y="160" width="240" height="240" rx="18" fill="#6b8f71"/>

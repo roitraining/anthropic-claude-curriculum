@@ -1,16 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
   <rect width="1200" height="675" fill="#f7f4ef"/>
   <text x="60" y="70" font-family="Georgia, serif" font-size="34" fill="#1a1a1a">Why this class uses the CLI</text>
   <rect x="80" y="140" width="500" height="400" rx="18" fill="#c45c26"/>
   <text x="330" y="220" text-anchor="middle" fill="#fff" font-size="26" font-family="Helvetica, Arial, sans-serif">CLI / IDE extension</text>
-  <text x="120" y="290" fill="#ffe8da" font-size="18" font-family="Helvetica, Arial, sans-serif">• Org cloud routing supported</text>
-  <text x="120" y="335" fill="#ffe8da" font-size="18" font-family="Helvetica, Arial, sans-serif">• Bedrock / Vertex / Foundry</text>
-  <text x="120" y="380" fill="#ffe8da" font-size="18" font-family="Helvetica, Arial, sans-serif">• Classroom standard playbook</text>
-  <text x="120" y="425" fill="#ffe8da" font-size="18" font-family="Helvetica, Arial, sans-serif">• You are here</text>
+  <text x="120" y="290" fill="#ffe8da" font-size="18" font-family="Helvetica, Arial, sans-serif">- Org cloud routing supported</text>
+  <text x="120" y="335" fill="#ffe8da" font-size="18" font-family="Helvetica, Arial, sans-serif">- Bedrock / Vertex / Foundry</text>
+  <text x="120" y="380" fill="#ffe8da" font-size="18" font-family="Helvetica, Arial, sans-serif">- Classroom standard playbook</text>
+  <text x="120" y="425" fill="#ffe8da" font-size="18" font-family="Helvetica, Arial, sans-serif">- You are here</text>
   <rect x="620" y="140" width="500" height="400" rx="18" fill="#6a6a6a"/>
   <text x="870" y="220" text-anchor="middle" fill="#fff" font-size="26" font-family="Helvetica, Arial, sans-serif">Desktop Code tab</text>
-  <text x="660" y="290" fill="#eeeeee" font-size="18" font-family="Helvetica, Arial, sans-serif">• Useful for other billing paths</text>
-  <text x="660" y="335" fill="#eeeeee" font-size="18" font-family="Helvetica, Arial, sans-serif">• Not the org-cloud route for class</text>
-  <text x="660" y="380" fill="#eeeeee" font-size="18" font-family="Helvetica, Arial, sans-serif">• Introduced in Course 2 landscape</text>
-  <text x="660" y="425" fill="#eeeeee" font-size="18" font-family="Helvetica, Arial, sans-serif">• Out of scope for today's labs</text>
+  <text x="660" y="290" fill="#eeeeee" font-size="18" font-family="Helvetica, Arial, sans-serif">- Useful for other billing paths</text>
+  <text x="660" y="335" fill="#eeeeee" font-size="18" font-family="Helvetica, Arial, sans-serif">- Not the org-cloud route for class</text>
+  <text x="660" y="380" fill="#eeeeee" font-size="18" font-family="Helvetica, Arial, sans-serif">- Introduced in Course 2 landscape</text>
+  <text x="660" y="425" fill="#eeeeee" font-size="18" font-family="Helvetica, Arial, sans-serif">- Out of scope for today's labs</text>
 </svg>

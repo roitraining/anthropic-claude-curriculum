@@ -1,12 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
   <rect width="1200" height="675" fill="#ece7df"/>
   <rect x="40" y="40" width="1120" height="595" rx="12" fill="#ffffff" stroke="#c45c26" stroke-width="4" stroke-dasharray="12 8"/>
   <rect x="40" y="40" width="1120" height="64" rx="12" fill="#c45c26"/>
   <text x="60" y="82" font-family="Helvetica, Arial, sans-serif" font-size="26" fill="#ffffff">HUMAN SCREENSHOT NEEDED</text>
   <text x="60" y="150" font-family="Georgia, serif" font-size="32" fill="#1a1a1a">Extension permission / details panel before install</text>
-  <text x="80" y="200" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#333333">• Show what the extension can read/write</text>
-<text x="80" y="236" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#333333">• Capture before confirming install if possible</text>
-<text x="80" y="272" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#333333">• Highlight scope language students should read aloud</text>
-<text x="80" y="308" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#333333">• No secrets visible in the panel</text>
+  <text x="80" y="200" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#333333">- Show what the extension can read/write</text>
+<text x="80" y="236" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#333333">- Capture before confirming install if possible</text>
+<text x="80" y="272" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#333333">- Highlight scope language students should read aloud</text>
+<text x="80" y="308" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#333333">- No secrets visible in the panel</text>
   <text x="60" y="620" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#666666">Replace this SVG with a real PNG capture, then update the Markdown image path to .png</text>
 </svg>

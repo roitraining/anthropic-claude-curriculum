@@ -1,10 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
   <rect width="1200" height="675" fill="#f7f4ef"/>
   <text x="60" y="70" font-family="Georgia, serif" font-size="34" fill="#1a1a1a">Tab-switching tax (felt in minutes)</text>
   <rect x="80" y="150" width="300" height="200" rx="16" fill="#8a6a3c"/>
   <text x="230" y="230" text-anchor="middle" fill="#fff" font-size="22" font-family="Helvetica, Arial, sans-serif">8 Claude asks</text>
   <text x="230" y="275" text-anchor="middle" fill="#f3e6d0" font-size="18" font-family="Helvetica, Arial, sans-serif">per day</text>
-  <text x="420" y="250" font-size="40" fill="#1a1a1a">×</text>
+  <text x="420" y="250" font-size="40" fill="#1a1a1a">x</text>
   <rect x="480" y="150" width="300" height="200" rx="16" fill="#c45c26"/>
   <text x="630" y="230" text-anchor="middle" fill="#fff" font-size="22" font-family="Helvetica, Arial, sans-serif">~90 seconds</text>
   <text x="630" y="275" text-anchor="middle" fill="#ffe8da" font-size="18" font-family="Helvetica, Arial, sans-serif">switch + reorient</text>
